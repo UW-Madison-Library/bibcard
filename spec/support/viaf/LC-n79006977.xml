@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:schema="http://schema.org/" xmlns:genont="http://www.w3.org/2006/gen/ont#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bgn="http://bibliograph.net/" xmlns:umbel="http://umbel.org/umbel#" xmlns:pto="http://www.productontology.org/id/">
+    <rdf:Description rdf:about="http://viaf.org/viaf/22149082/">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+        <void:inDataset xmlns:void="http://rdfs.org/ns/void#" rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/22149082">
+        <dcterms:identifier xmlns:dcterms="http://purl.org/dc/terms/">22149082</dcterms:identifier>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:birthDate>1874-02-03</schema:birthDate>
+        <schema:deathDate>1946-07-27</schema:deathDate>
+        <schema:name xml:lang="en">Gertrude Stein</schema:name>
+        <schema:name xml:lang="en">Gertrude Stein</schema:name>
+        <schema:name xml:lang="fr-FR">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-FR">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="fr-FR">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-FR">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="da-DK">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da-DK">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="da-DK">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da-DK">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en">Gertrude Stein</schema:name>
+        <schema:name xml:lang="en">Gertrude Stein</schema:name>
+        <schema:name xml:lang="hr-HR">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr-HR">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="hr-HR">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr-HR">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="pl-PL">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl-PL">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="pl-PL">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl-PL">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="pl-PL">Gertrude Stein</schema:name>
+        <schema:name xml:lang="pl-PL">Gertrude Stein</schema:name>
+        <schema:name xml:lang="es-ES">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es-ES">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="es-ES">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es-ES">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="de-DE">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de-DE">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="de-DE">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de-DE">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-KR">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-KR">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-KR">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-KR">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="fr-CH">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CH">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="fr-CH">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CH">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-US">Gertrude Stein</schema:name>
+        <schema:name xml:lang="en-US">Gertrude Stein</schema:name>
+        <schema:name xml:lang="it-VA">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="it-VA">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-CA">Gertrude Stein</schema:name>
+        <schema:name xml:lang="fr-CA">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-CA">Gertrude Stein</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CA">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-CA">Gertrude Stein</schema:name>
+        <schema:name xml:lang="fr-CA">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-CA">Gertrude Stein</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CA">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-US">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-US">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-US">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-US">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="fr-CA">Gertrude Stein</schema:name>
+        <schema:name xml:lang="fr-CA">Gertrude Stein</schema:name>
+        <schema:name xml:lang="lv-LV">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv-LV">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="lv-LV">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv-LV">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-US">Gertrude Stein</schema:name>
+        <schema:name xml:lang="en-US">Gertrude Stein</schema:name>
+        <schema:name xml:lang="ja-JP">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja-JP">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="ja-JP">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja-JP">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="cs-CZ">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs-CZ">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="cs-CZ">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs-CZ">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-AU">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-AU">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-AU">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-AU">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-IL">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-IL">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="en-IL">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-IL">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="nl-NL">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl-NL">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="nl-NL">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl-NL">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="sv-SE">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv-SE">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="sv-SE">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv-SE">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="fr-FR">Gertrude Stein</schema:name>
+        <schema:name xml:lang="fr-FR">Gertrude Stein</schema:name>
+        <schema:name xml:lang="pt-PT">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt-PT">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="pt-PT">Gertrude Stein</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt-PT">Gertrude Stein</skos:prefLabel>
+        <schema:name xml:lang="ar-IL">ستاين، جيرترود،</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar-IL">ستاين، جيرترود،</skos:prefLabel>
+        <schema:name xml:lang="ar-IL">ستاين، جيرترود،</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar-IL">ستاين، جيرترود،</skos:prefLabel>
+        <schema:alternateName>Gertrude Stein</schema:alternateName>
+        <schema:alternateName>Gertrude Stein</schema:alternateName>
+        <schema:alternateName>Gertruda Stain</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Stain</schema:familyName>
+        <schema:alternateName>Gertruda Stain</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Stain</schema:familyName>
+        <schema:alternateName>Gertruda Staĭn</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Staĭn</schema:familyName>
+        <schema:alternateName>Gertruda Staĭn</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Staĭn</schema:familyName>
+        <schema:alternateName>Gertruda Staĭn</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Staĭn</schema:familyName>
+        <schema:alternateName>Gertruda Staĭn</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Staĭn</schema:familyName>
+        <schema:alternateName>Gertruda Stein</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Stein</schema:familyName>
+        <schema:alternateName>Gertruda Stein</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Stein</schema:familyName>
+        <schema:alternateName>Gertruda Stein</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Stein</schema:familyName>
+        <schema:alternateName>Gertruda Stein</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Stein</schema:familyName>
+        <schema:alternateName>Gertruda Stein</schema:alternateName>
+        <schema:givenName>Gertruda</schema:givenName>
+        <schema:familyName>Stein</schema:familyName>
+        <schema:alternateName>Gertrude Stein</schema:alternateName>
+        <schema:givenName>Gertrude</schema:givenName>
+        <schema:familyName>Stein</schema:familyName>
+        <schema:alternateName>Stein</schema:alternateName>
+        <schema:alternateName>Гертруда Стайн</schema:alternateName>
+        <schema:alternateName>Гертруда Стайн</schema:alternateName>
+        <schema:givenName>Гертруда</schema:givenName>
+        <schema:familyName>Стайн</schema:familyName>
+        <schema:alternateName>Гертруда Стайн</schema:alternateName>
+        <schema:givenName>Гертруда</schema:givenName>
+        <schema:familyName>Стайн</schema:familyName>
+        <schema:alternateName>Гертруда Стайн</schema:alternateName>
+        <schema:givenName>Гертруда</schema:givenName>
+        <schema:familyName>Стайн</schema:familyName>
+        <schema:alternateName>ستاين، جيرترود،</schema:alternateName>
+        <schema:alternateName>ガートルード スタイン</schema:alternateName>
+        <schema:givenName>ガートルード</schema:givenName>
+        <schema:familyName>スタイン</schema:familyName>
+        <schema:alternateName>거트루드 스타인</schema:alternateName>
+        <schema:givenName>거트루드</schema:givenName>
+        <schema:familyName>스타인</schema:familyName>
+        <schema:alternateName>Geretrudis Stein</schema:alternateName>
+        <schema:alternateName>Gertrude Steinová</schema:alternateName>
+        <schema:alternateName>Gertrude Stein</schema:alternateName>
+        <schema:alternateName>Gertrude Stein</schema:alternateName>
+        <schema:alternateName>Gertrude Stein</schema:alternateName>
+        <schema:alternateName>Gertrude Stein</schema:alternateName>
+        <schema:alternateName>Gertrude Stein</schema:alternateName>
+        <schema:alternateName>Ģertrūde Staina</schema:alternateName>
+        <schema:alternateName>Гертруда Стайн</schema:alternateName>
+        <schema:alternateName>Гертруда Стајн</schema:alternateName>
+        <schema:alternateName>Гъртруд Стайн</schema:alternateName>
+        <schema:alternateName>Սթայն Գերտրուդ</schema:alternateName>
+        <schema:alternateName>גרטרוד שטיין</schema:alternateName>
+        <schema:alternateName>جيرترود شتاين</schema:alternateName>
+        <schema:alternateName>گرترود استاین</schema:alternateName>
+        <schema:alternateName>گەرترودە ستەن</schema:alternateName>
+        <schema:alternateName>ഗെർട്രൂഡ് സ്റ്റെയ്ൻ</schema:alternateName>
+        <schema:alternateName>გერტრუდ სტაინი</schema:alternateName>
+        <schema:alternateName>ガートルード・スタイン</schema:alternateName>
+        <schema:alternateName>格特鲁德·斯泰因</schema:alternateName>
+        <schema:alternateName>거트루드 스타인</schema:alternateName>
+        <schema:description>American art collector and experimental writer of novels, poetry and plays</schema:description>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11925479v#foaf:Person"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://d-nb.info/gnd/118617257"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://isni.org/isni/0000000122773352"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500273319-agent"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n79006977"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://id.ndl.go.jp/auth/entity/00457554"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://alpha.bn.org.pl/record=a11536597"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://libris.kb.se/resource/auth/210088"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://www.idref.fr/027147991/id"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://www.wikidata.org/entity/Q188385"/>
+        </schema:sameAs>
+        <schema:sameAs rdf:resource="http://dbpedia.org/resource/Gertrude_Stein"/>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/">
+            <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LAC%7C0052F8948#skos:Concept">
+                <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-CA">Stein, Gertrude, 1874-1946</skos:prefLabel>
+                <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CA">Stein, Gertrude, 1874-1946</skos:prefLabel>
+            </rdf:Description>
+        </foaf:focus>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BNF%7C11925479#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DBC%7C87097968980496#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/DBC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/ISNI%7C0000000122773352#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/ISNI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Geretrudis Stein</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gertrude Stein</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gertrude Steinová</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gertrude Stein Amerikaans schrijver</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gertrude Stein US-amerikanische Schriftstellerin, Verlegerin und Kunstsammlerin</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gertrude Stein pisarka i poetka amerykańska</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gertrude Stein poétesse, écrivain, dramaturge et féministe américaine</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gertrude Stein scrittrice e poetessa statunitense</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stain, Gertruda 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Staĭn, Gertruda</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Staĭn, Gertruda 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ģertrūde Staina</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Гертруда Стайн</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Гертруда Стајн</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Гъртруд Стайн</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Стайн, Гертруда 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Стайн, Гертруда американская писательница, теоретик литературы</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Սթայն Գերտրուդ</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">גרטרוד שטיין</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">جيرترود شتاين</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ستاين، جيرترود، ١٨٧٤-١٩٤٦</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">گرترود استاین مجموعه‌دار و نویسنده آمریکایی</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">گەرترودە ستەن</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ഗെർട്രൂഡ് സ്റ്റെയ്ൻ</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">გერტრუდ სტაინი</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ガートルード・スタイン</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">スタイン, ガートルード</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">格特鲁德·斯泰因</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">거트루드 스타인</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NSK%7C000033548#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NSK"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca11536597#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn++94202653#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda.</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX897300#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DNB%7C118617257#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stain, Gertruda 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/KRNLK%7CKAC199626370#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/KRNLK"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">스타인, 거트루드 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/SWNL%7Cvtls005606066#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/SWNL"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stain, Gertruda 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/JPG%7C500273319#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/JPG"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude (American writer, collector, and patron, 1874-1946)</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Gertrude Stein</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Staĭn, Gertruda</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV10150425#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LAC%7C0052F8948#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LAC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++79006977#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Staĭn, Gertruda, 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda, 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/B2Q%7C0000083968#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/B2Q"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000020486#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Стайн, Гертруда, 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/N6I%7Cvtls000011013#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/N6I"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Staĭn, Gertruda, 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda, 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NDL%7C00457554#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NDL"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">スタイン, ガートルード</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjn19990008200#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035521979#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000126485#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ستاين، جيرترود، 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stain, Gertruda, 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda, 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NTA%7C068633238#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+        <schema:url>http://opc4.kb.nl/PPN?PPN=068633238</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C210088#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C027147991#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/PTBNP%7C130398#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/PTBNP"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000126485#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertrude, 1874-1946</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ستاين، جيرترود، 1874-1946</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stain, Gertruda, 1874-1946</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Stein, Gertruda, 1874-1946</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/22149082"/>
+    </rdf:Description>
+</rdf:RDF>
