@@ -1,0 +1,1115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:schema="http://schema.org/" xmlns:genont="http://www.w3.org/2006/gen/ont#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bgn="http://bibliograph.net/" xmlns:umbel="http://umbel.org/umbel#" xmlns:pto="http://www.productontology.org/id/">
+    <rdf:Description rdf:about="http://viaf.org/viaf/15873/">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+        <void:inDataset xmlns:void="http://rdfs.org/ns/void#" rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/15873">
+        <dcterms:identifier xmlns:dcterms="http://purl.org/dc/terms/">15873</dcterms:identifier>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:birthDate>1881-10-25</schema:birthDate>
+        <schema:deathDate>1973-04-09</schema:deathDate>
+        <schema:name xml:lang="en">Pablo Picasso</schema:name>
+        <schema:name xml:lang="en">Pablo Picasso</schema:name>
+        <schema:name xml:lang="it-VA">Pablo Picasso Ruiz</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Pablo Picasso Ruiz</skos:prefLabel>
+        <schema:name xml:lang="it-VA">Pablo Picasso Ruiz</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Pablo Picasso Ruiz</skos:prefLabel>
+        <schema:name xml:lang="it-IT">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-IT">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="it-IT">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-IT">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="fr-FR">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-FR">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="fr-FR">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-FR">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="da-DK">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da-DK">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="da-DK">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="da-DK">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="hr-HR">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr-HR">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="hr-HR">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr-HR">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="fr-CH">Pablo Picasso</schema:name>
+        <schema:name xml:lang="fr-CH">Pablo Picasso</schema:name>
+        <schema:name xml:lang="pl-PL">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl-PL">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="pl-PL">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pl-PL">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="pl-PL">Pablo Picasso</schema:name>
+        <schema:name xml:lang="pl-PL">Pablo Picasso</schema:name>
+        <schema:name xml:lang="es-ES">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es-ES">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="es-ES">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="es-ES">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="de-DE">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de-DE">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="de-DE">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de-DE">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-KR">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-KR">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-KR">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-KR">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="fr-CH">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CH">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="fr-CH">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CH">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="no-NO">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no-NO">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="no-NO">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="no-NO">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-US">Pablo Picasso</schema:name>
+        <schema:name xml:lang="en-US">Pablo Picasso</schema:name>
+        <schema:name xml:lang="fr-CA">Pablo Picasso</schema:name>
+        <schema:name xml:lang="fr-CA">Pablo Picasso</schema:name>
+        <schema:name xml:lang="it-VA">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="it-VA">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="ca-ES">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca-ES">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="ca-ES">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca-ES">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-CA">Pablo Picasso</schema:name>
+        <schema:name xml:lang="fr-CA">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-CA">Pablo Picasso</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CA">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-CA">Pablo Picasso</schema:name>
+        <schema:name xml:lang="fr-CA">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-CA">Pablo Picasso</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CA">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-US">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-US">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-US">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-US">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="lv-LV">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv-LV">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="lv-LV">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv-LV">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-US">Pablo Picasso</schema:name>
+        <schema:name xml:lang="en-US">Pablo Picasso</schema:name>
+        <schema:name xml:lang="ja-JP">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja-JP">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="ja-JP">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja-JP">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="cs-CZ">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs-CZ">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="cs-CZ">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs-CZ">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-AU">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-AU">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-AU">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-AU">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-IL">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-IL">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="en-IL">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-IL">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="sv-SE">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv-SE">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="sv-SE">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="sv-SE">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="fr-FR">Pablo Picasso</schema:name>
+        <schema:name xml:lang="fr-FR">Pablo Picasso</schema:name>
+        <schema:name xml:lang="ca-ES">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca-ES">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="ca-ES">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca-ES">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="pt-PT">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt-PT">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="pt-PT">Pablo Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="pt-PT">Pablo Picasso</skos:prefLabel>
+        <schema:name xml:lang="it-VA">Pablo Ruiz y Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Pablo Ruiz y Picasso</skos:prefLabel>
+        <schema:name xml:lang="it-VA">Pablo Ruiz y Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Pablo Ruiz y Picasso</skos:prefLabel>
+        <schema:name xml:lang="nl-NL">Pablo Ruiz y Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl-NL">Pablo Ruiz y Picasso</skos:prefLabel>
+        <schema:name xml:lang="nl-NL">Pablo Ruiz y Picasso</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl-NL">Pablo Ruiz y Picasso</skos:prefLabel>
+        <schema:name xml:lang="it-VA">Pablo Ruiz</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Pablo Ruiz</skos:prefLabel>
+        <schema:name xml:lang="it-VA">Pablo Ruiz</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="it-VA">Pablo Ruiz</skos:prefLabel>
+        <schema:name xml:lang="ru-RU">П. Пикассо</schema:name>
+        <schema:name xml:lang="ru-RU">П. Пикассо</schema:name>
+        <schema:name xml:lang="ru-IL">Пабло Пикассо</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru-IL">Пабло Пикассо</skos:prefLabel>
+        <schema:name xml:lang="ru-IL">Пабло Пикассо</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ru-IL">Пабло Пикассо</skos:prefLabel>
+        <schema:name xml:lang="he-IL">פבלו פיקסו</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he-IL">פבלו פיקסו</skos:prefLabel>
+        <schema:name xml:lang="he-IL">פבלו פיקסו</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he-IL">פבלו פיקסו</skos:prefLabel>
+        <schema:name xml:lang="ar-EG">بيكاسو،</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar-EG">بيكاسو،</skos:prefLabel>
+        <schema:name xml:lang="ar-EG">بيكاسو،</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar-EG">بيكاسو،</skos:prefLabel>
+        <schema:name xml:lang="en">بيكاسو، بابلو،</schema:name>
+        <schema:name xml:lang="en">بيكاسو، بابلو،</schema:name>
+        <schema:name xml:lang="ar-LB">بيكاسو، بابلو،</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar-LB">بيكاسو، بابلو،</skos:prefLabel>
+        <schema:name xml:lang="ar-LB">بيكاسو، بابلو،</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar-LB">بيكاسو، بابلو،</skos:prefLabel>
+        <schema:name xml:lang="ar-IL">بيكاسو، بابلو،</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar-IL">بيكاسو، بابلو،</skos:prefLabel>
+        <schema:name xml:lang="ar-IL">بيكاسو، بابلو،</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ar-IL">بيكاسو، بابلو،</skos:prefLabel>
+        <schema:alternateName>Bijiasuo</schema:alternateName>
+        <schema:alternateName>Bijiasuo</schema:alternateName>
+        <schema:alternateName>Bablu Bikasu</schema:alternateName>
+        <schema:givenName>Bablu</schema:givenName>
+        <schema:familyName>Bikasu</schema:familyName>
+        <schema:alternateName>Bāblū Bīkāsū</schema:alternateName>
+        <schema:givenName>Bāblū</schema:givenName>
+        <schema:familyName>Bīkāsū</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Blasco</schema:alternateName>
+        <schema:givenName>Pablo Ruiz</schema:givenName>
+        <schema:familyName>Blasco</schema:familyName>
+        <schema:alternateName>Bāblū Bīkāsū</schema:alternateName>
+        <schema:givenName>Bāblū</schema:givenName>
+        <schema:familyName>Bīkāsū</schema:familyName>
+        <schema:alternateName>Babuluo Luyisi Bikasuo</schema:alternateName>
+        <schema:givenName>Babuluo</schema:givenName>
+        <schema:familyName>Luyisi Bikasuo</schema:familyName>
+        <schema:alternateName>Babuluo Luzi Bikasuo</schema:alternateName>
+        <schema:givenName>Babuluo</schema:givenName>
+        <schema:familyName>Luzi Bikasuo</schema:familyName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Ruiz Y Picasso</schema:alternateName>
+        <schema:alternateName>Paburo Pikaso</schema:alternateName>
+        <schema:alternateName>Pi-chia-so</schema:alternateName>
+        <schema:alternateName>Pi-chia-so</schema:alternateName>
+        <schema:alternateName>Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso Ruiz</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Picasso Ruiz</schema:familyName>
+        <schema:alternateName>Picasso, ...,</schema:alternateName>
+        <schema:alternateName>... Picasso</schema:alternateName>
+        <schema:givenName>...</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo ( Picasso</schema:alternateName>
+        <schema:givenName>Pablo (</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Diego José Francisco de Paula Juan Nepomuceno Crispín Crispiniano de la Santissima Trinidad Ruiz Blasco Picasso</schema:alternateName>
+        <schema:givenName>Pablo Diego José Francisco de Paula Juan Nepomuceno Crispín Crispiniano de la Santissima Trinidad Ruiz Blasco</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Y Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz Y</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz y Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz y</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz y Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz y</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz y Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz y</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz y Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz y</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruiz</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruys Picasso</schema:alternateName>
+        <schema:givenName>Pablo Ruys</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Picasso</schema:familyName>
+        <schema:alternateName>Picasso</schema:alternateName>
+        <schema:alternateName>Picasso</schema:alternateName>
+        <schema:alternateName>Picasso</schema:alternateName>
+        <schema:alternateName>Picasso</schema:alternateName>
+        <schema:alternateName>Picasso</schema:alternateName>
+        <schema:alternateName>Picasso</schema:alternateName>
+        <schema:alternateName>Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Pikaso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Pikaso</schema:familyName>
+        <schema:alternateName>Pablo Pikaso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Pikaso</schema:familyName>
+        <schema:alternateName>Pabura Pikaso</schema:alternateName>
+        <schema:givenName>Pabura</schema:givenName>
+        <schema:familyName>Pikaso</schema:familyName>
+        <schema:alternateName>Paburo Pikaso</schema:alternateName>
+        <schema:givenName>Paburo</schema:givenName>
+        <schema:familyName>Pikaso</schema:familyName>
+        <schema:alternateName>Pamplo Pikaso</schema:alternateName>
+        <schema:givenName>Pamplo</schema:givenName>
+        <schema:familyName>Pikaso</schema:familyName>
+        <schema:alternateName>Paulos Pikaso</schema:alternateName>
+        <schema:givenName>Paulos</schema:givenName>
+        <schema:familyName>Pikaso</schema:familyName>
+        <schema:alternateName>Pikaso</schema:alternateName>
+        <schema:alternateName>Pikasso Pablo</schema:alternateName>
+        <schema:alternateName>... Pikasso</schema:alternateName>
+        <schema:givenName>...</schema:givenName>
+        <schema:familyName>Pikasso</schema:familyName>
+        <schema:alternateName>Pablo Pikasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Pikasso</schema:familyName>
+        <schema:alternateName>Pablo Pikasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Pikasso</schema:familyName>
+        <schema:alternateName>Pabura Pikasso</schema:alternateName>
+        <schema:givenName>Pabura</schema:givenName>
+        <schema:familyName>Pikasso</schema:familyName>
+        <schema:alternateName>Pamplo Pikasso</schema:alternateName>
+        <schema:givenName>Pamplo</schema:givenName>
+        <schema:familyName>Pikasso</schema:familyName>
+        <schema:alternateName>Paulos Pikasso</schema:alternateName>
+        <schema:givenName>Paulos</schema:givenName>
+        <schema:familyName>Pikasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Blasco</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz Blasco</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Blasco</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz Blasco</schema:familyName>
+        <schema:alternateName>Ruiz Blasco</schema:alternateName>
+        <schema:alternateName>Pablo Ruiz Blasko</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz Blasko</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz Picasso</schema:familyName>
+        <schema:alternateName>Ruiz Picasso, Pablo</schema:alternateName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz Picasso</schema:familyName>
+        <schema:alternateName>Ruiz Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Ruiz Y Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz Y Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz y Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz y Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz y Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz y Picasso</schema:familyName>
+        <schema:alternateName>Ruiz y Picasso, Pablo</schema:alternateName>
+        <schema:alternateName>Pablo Ruiz y Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz y Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruiz y Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz y Picasso</schema:familyName>
+        <schema:alternateName>Ruiz y Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Ruiz</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz</schema:familyName>
+        <schema:alternateName>Pablo Ruiz</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz</schema:familyName>
+        <schema:alternateName>Pablo Ruiz</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz</schema:familyName>
+        <schema:alternateName>Pablo Ruiz</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz</schema:familyName>
+        <schema:alternateName>Pablo Ruiz</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz</schema:familyName>
+        <schema:alternateName>Pablo Ruiz-Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruiz-Picasso</schema:familyName>
+        <schema:alternateName>Ruiz</schema:alternateName>
+        <schema:alternateName>Ruiz</schema:alternateName>
+        <schema:alternateName>Pablo Ruys Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruys Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruys Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruys Picasso</schema:familyName>
+        <schema:alternateName>Ruys Picasso, Pablo</schema:alternateName>
+        <schema:alternateName>Pablo Ruys Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruys Picasso</schema:familyName>
+        <schema:alternateName>Pablo Ruys</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruys</schema:familyName>
+        <schema:alternateName>Pablo Ruys</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruys</schema:familyName>
+        <schema:alternateName>Pablo Ruys</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruys</schema:familyName>
+        <schema:alternateName>Pablo Ruys-Picasso</schema:alternateName>
+        <schema:givenName>Pablo</schema:givenName>
+        <schema:familyName>Ruys-Picasso</schema:familyName>
+        <schema:alternateName>Saci Pos</schema:alternateName>
+        <schema:alternateName>Sacipos</schema:alternateName>
+        <schema:alternateName>Пикассо Руис</schema:alternateName>
+        <schema:alternateName>Пикассо Рюнц</schema:alternateName>
+        <schema:alternateName>Пабло Пикассо</schema:alternateName>
+        <schema:givenName>Пабло</schema:givenName>
+        <schema:familyName>Пикассо</schema:familyName>
+        <schema:alternateName>פיקאסו</schema:alternateName>
+        <schema:alternateName>פאבלו פיקאסו</schema:alternateName>
+        <schema:givenName>פאבלו</schema:givenName>
+        <schema:familyName>פיקאסו</schema:familyName>
+        <schema:alternateName>פאבלו פיקאסו</schema:alternateName>
+        <schema:givenName>פאבלו</schema:givenName>
+        <schema:familyName>פיקאסו</schema:familyName>
+        <schema:alternateName>פבלו פיקאסו</schema:alternateName>
+        <schema:givenName>פבלו</schema:givenName>
+        <schema:familyName>פיקאסו</schema:familyName>
+        <schema:alternateName>بابلو  بيكاسو، 1881-1973</schema:alternateName>
+        <schema:alternateName>بابلو  بيكاسو،</schema:alternateName>
+        <schema:alternateName>بيكاسو، ب.،</schema:alternateName>
+        <schema:alternateName>פבלו,‏ ‏פיקסו</schema:alternateName>
+        <schema:givenName>פבלו,‏</schema:givenName>
+        <schema:familyName>‏פיקסו</schema:familyName>
+        <schema:alternateName>パブロ・ピカソ</schema:alternateName>
+        <schema:alternateName>パブロ ピカソ</schema:alternateName>
+        <schema:givenName>パブロ</schema:givenName>
+        <schema:familyName>ピカソ</schema:familyName>
+        <schema:alternateName>ピカソ</schema:alternateName>
+        <schema:alternateName>ピカソパブロ</schema:alternateName>
+        <schema:alternateName>毕家索</schema:alternateName>
+        <schema:alternateName>삐까소</schema:alternateName>
+        <schema:alternateName>파블로 피카소</schema:alternateName>
+        <schema:givenName>파블로</schema:givenName>
+        <schema:familyName>피카소</schema:familyName>
+        <schema:alternateName>Bablo bekaso</schema:alternateName>
+        <schema:alternateName>P'ablo P'ik'aso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Picasso</schema:alternateName>
+        <schema:alternateName>Pablo Pikaso</schema:alternateName>
+        <schema:alternateName>Pablo Pikasso</schema:alternateName>
+        <schema:alternateName>Pablo Ruiz Picasso</schema:alternateName>
+        <schema:alternateName>Pablos Pikasos</schema:alternateName>
+        <schema:alternateName>Pablu Picassu</schema:alternateName>
+        <schema:alternateName>Paulus Picasso</schema:alternateName>
+        <schema:alternateName>Picasso Pablo</schema:alternateName>
+        <schema:alternateName>Pikasso Pablo</schema:alternateName>
+        <schema:alternateName>Πάμπλο Πικάσο</schema:alternateName>
+        <schema:alternateName>Пабла Пікаса</schema:alternateName>
+        <schema:alternateName>Пабло Пикасо</schema:alternateName>
+        <schema:alternateName>Пабло Пикассо</schema:alternateName>
+        <schema:alternateName>Пабло Пикассо</schema:alternateName>
+        <schema:alternateName>Пабло Пікассо</schema:alternateName>
+        <schema:alternateName>Паблё Пікаса</schema:alternateName>
+        <schema:alternateName>Пабло Пикассо</schema:alternateName>
+        <schema:givenName>Пабло</schema:givenName>
+        <schema:familyName>Пикассо</schema:familyName>
+        <schema:alternateName>Պաբլո Պիկասո</schema:alternateName>
+        <schema:alternateName>פאבלא פיקאסא</schema:alternateName>
+        <schema:alternateName>פבלו פיקאסו</schema:alternateName>
+        <schema:alternateName>بابلو بيكاسو</schema:alternateName>
+        <schema:alternateName>پابلو پکاسو</schema:alternateName>
+        <schema:alternateName>پابلو پیکاسو</schema:alternateName>
+        <schema:alternateName>پابلۆ پیکاسۆ</schema:alternateName>
+        <schema:alternateName>پيکاسو</schema:alternateName>
+        <schema:alternateName>پیبلو پکاسو</schema:alternateName>
+        <schema:alternateName>ܦܒܠܘ ܦܝܩܐܣܘ</schema:alternateName>
+        <schema:alternateName>पाब्लो पिकासो</schema:alternateName>
+        <schema:alternateName>पाब्लो पिकासो</schema:alternateName>
+        <schema:alternateName>पाब्लो पिकासो</schema:alternateName>
+        <schema:alternateName>পাবলো পিকাছো</schema:alternateName>
+        <schema:alternateName>পাবলো পিকাসো</schema:alternateName>
+        <schema:alternateName>পাবলো পিকাসো</schema:alternateName>
+        <schema:alternateName>ਪਾਬਲੋ ਪਿਕਾਸੋ</schema:alternateName>
+        <schema:alternateName>பாப்லோ பிக்காசோ</schema:alternateName>
+        <schema:alternateName>పాబ్లో పికాసో</schema:alternateName>
+        <schema:alternateName>ಪಾಬ್ಲೊ ಪಿಕಾಸೋ</schema:alternateName>
+        <schema:alternateName>പാബ്ലോ പിക്കാസോ</schema:alternateName>
+        <schema:alternateName>පැබ්ලෝ පිකාසෝ</schema:alternateName>
+        <schema:alternateName>ปาโบล ปีกัสโซ</schema:alternateName>
+        <schema:alternateName>པ་བུ་ལོ་པི་ཀ་སོ།</schema:alternateName>
+        <schema:alternateName>ပီကာဆို</schema:alternateName>
+        <schema:alternateName>პაბლო პიკასო</schema:alternateName>
+        <schema:alternateName>ፓብሎ ፒካሶ</schema:alternateName>
+        <schema:alternateName>パブロ・ピカソ</schema:alternateName>
+        <schema:alternateName>巴勃羅·畢卡索</schema:alternateName>
+        <schema:alternateName>畢加索</schema:alternateName>
+        <schema:alternateName>파블로 피카소</schema:alternateName>
+        <schema:description>pintor español</schema:description>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://data.bnf.fr/ark:/12148/cb11919660r#foaf:Person"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://d-nb.info/gnd/118594206"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://isni.org/isni/0000000077251116"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://vocab.getty.edu/ulan/500009666-agent"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n78086005"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://id.ndl.go.jp/auth/entity/00452768"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://alpha.bn.org.pl/record=a11437133"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://libris.kb.se/resource/auth/211453"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://www.idref.fr/027071790/id"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://www.wikidata.org/entity/Q5593"/>
+        </schema:sameAs>
+        <owl:differentFrom xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:Description rdf:about="http://d-nb.info/gnd/1013603869">
+                <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Apparently, this URI identifies an 'undifferentiated name', not a stable real entity</rdfs:comment>
+            </rdf:Description>
+        </owl:differentFrom>
+        <rdf:value rdf:parseType="Literal">
+            <ns2:source xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#" nsid="BNC10000000000000000009495">BNCHL|10000000000000000009495</ns2:source>
+        </rdf:value>
+        <rdf:value rdf:parseType="Literal">
+            <ns2:source xmlns="http://viaf.org/viaf/terms#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:void="http://rdfs.org/ns/void#" xmlns:ns2="http://viaf.org/viaf/terms#" nsid="90058585">BIBSYS|90058585</ns2:source>
+        </rdf:value>
+        <schema:sameAs rdf:resource="http://dbpedia.org/resource/Pablo_Picasso"/>
+        <schema:gender rdf:resource="http://www.wikidata.org/entity/Q6581097"/>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/">
+            <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LAC%7C0021D3787#skos:Concept">
+                <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-CA">Picasso, Pablo, 1881-1973</skos:prefLabel>
+                <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="fr-CA">Picasso, Pablo, 1881-1973</skos:prefLabel>
+            </rdf:Description>
+        </foaf:focus>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV12539089#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Ruiz, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/ICCU%7CCFIV051221#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/ICCU"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso , Pablo Ruiz</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz , Pablo</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BNF%7C11919660#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BNF"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pablo Picasso 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Paburo Pikaso 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Pablo Ruiz 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Blasco Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">パブロ・ピカソ 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DBC%7C87097968824419#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/DBC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NSK%7C000003465#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NSK"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/RERO%7Cvtls000130420#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/RERO"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Blasco, Pablo Ruiz</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Blasco, Pablo</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DNB%7C1013603869#skos:Concept">
+        <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1387388"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bikasu, Bablu 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pi-chia-so 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, ... 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz y 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruys 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pabura 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pamplo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Paulos 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, ... 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pabura 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pamplo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Paulos 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz-Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys-Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Saci Pos 1881-1973 Pseudonym</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Sacipos 1881-1973 Pseudonym</skos:altLabel>
+        <owl:differentFrom xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLP%7Ca11437133#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLP"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn++96403012#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz.</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso.</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Blasko, Pablo.</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo.</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BNE%7CXX1637941#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BNE"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DNB%7C118594206#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bikasu, Bablu 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pi-chia-so 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, ... 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz y 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruys 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pabura 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pamplo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Paulos 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, ... 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pabura 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pamplo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Paulos 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz-Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys-Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Saci Pos 1881-1973 Pseudonym</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Sacipos 1881-1973 Pseudonym</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/KRNLK%7CKAC199621664#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/KRNLK"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ピカソ 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">삐까소 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">피카소, 파블로 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/SWNL%7Cvtls005131054#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/SWNL"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bikasu, Bablu 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pi-chia-so 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, ... 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz y 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruys 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pabura 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pamplo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Paulos 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, ... 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pabura 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pamplo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Paulos 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz-Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys-Picasso, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Saci Pos 1881-1973 Pseudonym</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Sacipos 1881-1973 Pseudonym</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BIBSYS%7C90058585#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BIBSYS"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/JPG%7C500009666#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/JPG"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo (Spanish painter, sculptor, and printmaker, 1881-1973)</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pablo Picasso</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pablo Ruiz Y Picasso</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Diego José Francisco de Paula Juan Nepomuceno Crispín Crispiniano de la Santissima Trinidad Ruiz Blasco</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz Y</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz y</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Y Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/B2Q%7C0000007686#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/B2Q"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV10229580#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Ruiz, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BNC%7Ca10443824#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BNC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo ( 1881-1973)</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LAC%7C0021D3787#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LAC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++78086005#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bijiasuo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bīkāsū, Bāblū, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Luyisi Bikasuo, Babuluo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Luzi Bikasuo, Babuluo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Paburo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקאסו</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקאסו, פאבלו, 1881־1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקאסו, פבלו</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">‏פיקסו, פבלו,‏ ‏1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ピカソパブロ, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000029604#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Пикассо, Пабло, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/N6I%7Cvtls000093394#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/N6I"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bijiasuo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bīkāsū, Bāblū, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Luyisi Bikasuo, Babuluo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Paburo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקאסו, פבלו</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ピカソパブロ, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NDL%7C00452768#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NDL"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ピカソ, パブロ</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cjn19990006541#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLA%7C000035422161#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLA"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Y Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000105563#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بيكاسو، بابلو، 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקסו, פבלו, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Пикассо, Пабло, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקאסו, פאבלו, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/SELIBR%7C211453#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/SELIBR"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Blasco, Pablo 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C027071790#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Blasco, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BNCHL%7C10000000000000000009495#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BNCHL"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pi-chia-so, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikaso, Paburo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pikasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/PTBNP%7C9658#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/PTBNP"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruit</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV11654648#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Ruiz, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NTA%7C068447809#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Bijiasuo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, ..., 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo Ruiz y, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">毕家索, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+        <schema:url>http://opc4.kb.nl/PPN?PPN=068447809</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BAV%7CADV11654647#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BAV"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Ruiz, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLR%7CRU+NLR+AUTH+778208#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLR"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Пикассо, П. 1881-1973 Пабло</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Пикассо Руис П. 1881-1973 f</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Пикассо Рюнц П. 1881-1973 z</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000105563#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بيكاسو، بابلو، 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקסו, פבלו, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Пикассо, Пабло, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקאסו, פאבלו, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000105563#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بيكاسو، بابلو، 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקסו, פבלו, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Пикассо, Пабло, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקאסו, פאבלו, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/EGAXA%7Cvtls002657273#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/EGAXA"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بيكاسو، 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بيكاسو، ب.، 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/ISNI%7C0000000077251116#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/ISNI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بيكاسو، بابلو، 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بابلو  بيكاسو، 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LNL%7C55453#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LNL"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بيكاسو، بابلو، 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بابلو  بيكاسو، 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000105563#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">بيكاسو، بابلو، 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקסו, פבלו, 1881-1973</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Пикассо, Пабло, 1881-1973</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Picasso, Pablo</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz y Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruiz, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Ruys Picasso, Pablo, 1881-1973</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פיקאסו, פאבלו, 1881-1973</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/15873"/>
+    </rdf:Description>
+</rdf:RDF>

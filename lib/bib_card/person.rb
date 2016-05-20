@@ -1,8 +1,8 @@
 module BibCard
   class Person < Spira::Base
     
-    property :birth_date, predicate: SCHEMA_BIRTH_DATE, type: XSD.string
-    property :death_date, predicate: SCHEMA_DEATH_DATE, type: XSD.string
+    property :birth_date, predicate: SCHEMA_BIRTHDATE, type: XSD.string
+    property :death_date, predicate: SCHEMA_DEATHDATE, type: XSD.string
     has_many :types, predicate: RDF.type, type: RDF::URI
     
     def uri
@@ -27,6 +27,10 @@ module BibCard
     def wikidata_uri
       stmt = related_entity_by_uri_prefix("http://www.wikidata.org/entity")
       stmt.nil? ? nil : stmt.object
+    end
+    
+    def dbpedia_resource
+      self.dbpedia_uri.as(BibCard::DBPedia::Resource) if self.dbpedia_uri
     end
     
     protected
