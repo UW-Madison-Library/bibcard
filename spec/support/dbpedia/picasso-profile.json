@@ -1,0 +1,25 @@
+{
+    "head":{
+        "link":[
+
+        ],
+        "vars":[
+            "abstract",
+            "foundedDate",
+            "location"
+        ]
+    },
+    "results":{
+        "distinct":false,
+        "ordered":true,
+        "bindings":[
+            {
+                "abstract":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":"Pablo Ruiz y Picasso, also known as Pablo Picasso (/p\u026A\u02C8k\u0251\u02D0so\u028A, -\u02C8k\u00E6so\u028A/; Spanish: [\u02C8pa\u03B2lo pi\u02C8kaso]; 25 October 1881 \u2013 8 April 1973), was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France. As one of the greatest and most influential artists of the 20th century, he is known for co-founding the Cubist movement, the invention of constructed sculpture, the co-invention of collage, and for the wide variety of styles that he helped develop and explore. Among his most famous works are the proto-Cubist Les Demoiselles d'Avignon (1907), and Guernica (1937), a portrayal of the Bombing of Guernica by the German and Italian airforces at the behest of the Spanish nationalist government during the Spanish Civil War.Picasso, Henri Matisse and Marcel Duchamp are regarded as the three artists who most defined the revolutionary developments in the plastic arts in the opening decades of the 20th century, responsible for significant developments in painting, sculpture, printmaking and ceramics.Picasso demonstrated extraordinary artistic talent in his early years, painting in a naturalistic manner through his childhood and adolescence. During the first decade of the 20th century, his style changed as he experimented with different theories, techniques, and ideas. His work is often categorized into periods. While the names of many of his later periods are debated, the most commonly accepted periods in his work are the Blue Period (1901\u20131904), the Rose Period (1904\u20131906), the African-influenced Period (1907\u20131909), Analytic Cubism (1909\u20131912), and Synthetic Cubism (1912\u20131919), also referred to as the Crystal period.Exceptionally prolific throughout the course of his long life, Picasso achieved universal renown and immense fortune for his revolutionary artistic accomplishments, and became one of the best-known figures in 20th-century art."
+                }
+            }
+        ]
+    }
+}

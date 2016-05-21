@@ -5,8 +5,11 @@ describe BibCard::Person do
       lc_uri   = "http://id.loc.gov/authorities/names/n79006977"
       stub_request(:get, viaf_url).to_return(body: body_content("viaf/LC-n79006977.xml"), :status => 200)
       
-      dbpedia_profile_url = "http://dbpedia.org/sparql?query=%20%20%20%20%20%20%20%20%20%20%20%20%20%20PREFIX%20rdfs:%20%3Chttp://www.w3.org/2000/01/rdf-schema%23%3E%20%20%20%20%20%20%20PREFIX%20owl:%20%3Chttp://www.w3.org/2002/07/owl%23%3E%20%20%20%20%20%20%20PREFIX%20foaf:%20%3Chttp://xmlns.com/foaf/0.1/%3E%20%20%20%20%20%20%20PREFIX%20dbo:%20%3Chttp://dbpedia.org/ontology/%3E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20SELECT%20?abstract%20?foundedDate%20?location%20%20%20%20%20%20%20WHERE%20%7B%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Chttp://dbpedia.org/resource/Gertrude_Stein%3E%20dbo:abstract%20?abstract%20.%20%7D%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%3Chttp://dbpedia.org/resource/Gertrude_Stein%3E%20dbp:location%20?location%20.%20%7D%20%20%20%20%20%20%20%20%20OPTIONAL%20%7B%20%3Chttp://dbpedia.org/resource/Gertrude_Stein%3E%20dbp:foundedDate%20?foundedDate%20.%20%7D%20%20%20%20%20%20%20%20%20FILTER(langMatches(lang(?abstract),%20%22en%22))%20%20%20%20%20%20%20%7D%20%20%20%20%20%20%20"
-      stub_request(:get, dbpedia_profile_url).to_return(body: body_content("dbpedia/profile.json"), :status => 200)
+      config = sparql_config
+      stub_request(:get, config["stein"]["profile"]).to_return(body: body_content("dbpedia/stein-profile.json"), :status => 200)
+      stub_request(:get, config["stein"]["influences"]).to_return(body: body_content("dbpedia/stein-influences.json"), :status => 200)
+      stub_request(:get, config["stein"]["influenced"]).to_return(body: body_content("dbpedia/stein-influenced.json"), :status => 200)
+      
       @author = BibCard.author_from_viaf_lc(viaf_url, lc_uri)
     end
     
@@ -49,6 +52,38 @@ describe BibCard::Person do
     it "has a dbpedia abstract" do
       abstract = "Gertrude Stein (February 3, 1874 \u2013 July 27, 1946) was an American writer of novels, poetry and plays. Born in the Allegheny West neighborhood of Pittsburgh, Pennsylvania, and raised in Oakland, California, Stein moved to Paris in 1903, making France her home for the remainder of her life. A literary innovator and pioneer of Modernist literature, Stein\u2019s work broke with the narrative, linear, and temporal conventions of the 19th-century. She was also known as a collector of Modernist art.In 1933, Stein published a kind of memoir of her Paris years, The Autobiography of Alice B. Toklas, written in the voice of Toklas, her life partner. The book became a literary bestseller and vaulted Stein from the relative obscurity of cult literary figure into the light of mainstream attention."
       expect(@author.dbpedia_resource.abstract).to eq(abstract)
+    end
+  end
+  
+  context "a person with an influence network" do
+    before(:all) do
+      viaf_url = "http://viaf.org/viaf/sourceID/LC|n78086005"
+      lc_uri   = "http://id.loc.gov/authorities/names/n78086005"
+      stub_request(:get, viaf_url).to_return(body: body_content("viaf/15873.xml"), :status => 200)
+      
+      config = sparql_config
+      stub_request(:get, config["picasso"]["profile"]).to_return(body: body_content("dbpedia/picasso-profile.json"), :status => 200)
+      stub_request(:get, config["picasso"]["influences"]).to_return(body: body_content("dbpedia/picasso-influences.json"), :status => 200)
+      stub_request(:get, config["picasso"]["influenced"]).to_return(body: body_content("dbpedia/picasso-influenced.json"), :status => 200)
+      @person = BibCard.author_from_viaf_lc(viaf_url, lc_uri)
+    end
+    
+    it "has the right number of influences" do
+      expect(@person.dbpedia_resource.influences.size).to eq(2)
+    end
+    
+    it "has influences with names" do
+      influence_names = @person.dbpedia_resource.influences.map {|resource| "#{resource.given_name} #{resource.surname}"}.sort
+      expect(influence_names).to eq(["Paul Cezanne", "Stanley William Hayter"])
+    end
+    
+    it "has the right number of people influenced" do
+      expect(@person.dbpedia_resource.influencees.size).to eq(53)
+    end
+    
+    it "has influences with names" do
+      influencee_names = @person.dbpedia_resource.influencees.map {|resource| "#{resource.given_name} #{resource.surname}"}.sort
+      expect(influencee_names).to include("Georges Braque")
     end
   end
 end

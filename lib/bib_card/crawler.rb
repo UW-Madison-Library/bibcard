@@ -59,7 +59,7 @@ module BibCard
         graph << [@subject, SCHEMA_SAME_AS, self.getty_uri] if self.getty_uri
         graph << [@subject, SCHEMA_SAME_AS, self.wikidata_uri] if self.wikidata_uri
         graph << profile_graph if self.dbpedia_uri
-        # graph << influence_graph if self.dbpedia_uri
+        graph << influence_graph if self.dbpedia_uri
         # graph << film_graph if self.dbpedia_uri
         # graph << getty_note_graph if self.getty_uri
         # graph << wikidata_graph if self.wikidata_uri
@@ -81,8 +81,8 @@ module BibCard
           end
           influence_entity = RDF::URI.new(influence[field]["value"])
           graph << [self.dbpedia_uri, predicate, influence_entity]
-          graph << [influence_entity, RDF::Vocab::FOAF.givenName, influence["#{field}GivenName"]["value"]]
-          graph << [influence_entity, RDF::Vocab::FOAF.surname, influence["#{field}Surname"]["value"]]
+          graph << [influence_entity, FOAF_GIVEN_NAME, influence["#{field}GivenName"]["value"]]
+          graph << [influence_entity, FOAF_SURNAME, influence["#{field}Surname"]["value"]]
           if influence["influenceSameAs"]
             graph << [influence_entity, RDF::OWL.sameAs, influence["#{field}SameAs"]["value"]]
           end
