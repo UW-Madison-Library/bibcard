@@ -1,0 +1,48 @@
+{
+  "head" : {
+    "vars" : [ "scopeNote", "scopeNoteValue", "source", "sourceShortTitle", "parent", "parentShortTitle" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "scopeNote" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/ulan/scopeNote/53649"
+      },
+      "scopeNoteValue" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Long-lived and very influential Spanish artist, active in France. He dominated 20th-century European art. With Georges Braque, he is credited with inventing Cubism."
+      },
+      "source" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/ulan/source/2100153925"
+      },
+      "sourceShortTitle" : {
+        "type" : "literal",
+        "value" : "LCNAF Library of Congress Name Authority File  [n.d.]"
+      }
+    }, {
+      "scopeNote" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/ulan/scopeNote/53649"
+      },
+      "scopeNoteValue" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Long-lived and very influential Spanish artist, active in France. He dominated 20th-century European art. With Georges Braque, he is credited with inventing Cubism."
+      },
+      "source" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/ulan/source/2100156698-scopeNote-53649"
+      },
+      "parent" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/ulan/source/2100156698"
+      },
+      "parentShortTitle" : {
+        "type" : "literal",
+        "value" : "Grove Dictionary of Art online (1999-2002)"
+      }
+    } ]
+  }
+}

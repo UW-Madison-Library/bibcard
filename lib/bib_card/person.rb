@@ -33,6 +33,10 @@ module BibCard
       self.dbpedia_uri.as(BibCard::DBPedia::Resource) if self.dbpedia_uri
     end
     
+    def getty_subject
+      self.getty_uri.as(BibCard::Getty::Subject) if self.getty_uri
+    end
+    
     protected
     
     def related_entity_by_uri_prefix(domain)

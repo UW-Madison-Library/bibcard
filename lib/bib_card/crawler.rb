@@ -61,7 +61,7 @@ module BibCard
         graph << profile_graph if self.dbpedia_uri
         graph << influence_graph if self.dbpedia_uri
         # graph << film_graph if self.dbpedia_uri
-        # graph << getty_note_graph if self.getty_uri
+        graph << getty_note_graph if self.getty_uri
         # graph << wikidata_graph if self.wikidata_uri
       end
       graph
@@ -199,17 +199,17 @@ module BibCard
       self.getty_scope_notes.each do |scope_note|
         # Add the scope note itself
         scope_note_uri = RDF::URI.new(scope_note["scopeNote"]["value"])
-        graph << [getty_subject, RDF::Vocab::SKOS.scopeNote, scope_note_uri]
+        graph << [getty_subject, SKOS_SCOPE_NOTE, scope_note_uri]
         graph << [scope_note_uri, RDF.value, scope_note["scopeNoteValue"]["value"]]
         
         # Add the sources/citations for the scope note
         source_uri = RDF::URI.new(scope_note["source"]["value"])
-        graph << [scope_note_uri, RDF::Vocab::DC.source, source_uri]
+        graph << [scope_note_uri, DC_SOURCE, source_uri]
         if scope_note["sourceShortTitle"]
           graph << [source_uri, BIBO_SHORT_TITLE, scope_note["sourceShortTitle"]["value"]]
         else
           parent_uri = RDF::URI.new(scope_note["parent"]["value"])
-          graph << [source_uri, RDF::Vocab::DC.isPartOf, parent_uri]
+          graph << [source_uri, DC_IS_PART_OF, parent_uri]
           graph << [source_uri, RDF.type, BIBO_DOCUMENT_PART]
           graph << [parent_uri, BIBO_SHORT_TITLE, scope_note["parentShortTitle"]["value"]]
         end
@@ -217,10 +217,6 @@ module BibCard
       graph
     end
   
-    def getty_subject
-      Spira.repository.query(subject: self.getty_uri).first.subject.as(Getty::Subject)
-    end
-    
     def getty_scope_notes
       sparql = "
       PREFIX ulan: <http://vocab.getty.edu/ulan/>
@@ -244,9 +240,9 @@ module BibCard
       get_data(sparql, :getty)
     end
     
-    def wikidata_entity
-      Spira.repository.query(subject: self.wikidata_uri).first.subject.as(WikiData::Entity)
-    end
+    # def wikidata_entity
+    #   Spira.repository.query(subject: self.wikidata_uri).first.subject.as(WikiData::Entity)
+    # end
     
     def wikidata_graph
       graph = RDF::Graph.new

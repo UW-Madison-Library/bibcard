@@ -2,6 +2,9 @@ module BibCard
   # SHOULD BE LOADED VIA RDF::Vocab, but not working
   FOAF_GIVEN_NAME     = RDF::URI.new('http://xmlns.com/foaf/0.1/givenName')
   FOAF_SURNAME        = RDF::URI.new('http://xmlns.com/foaf/0.1/surname')
+  SKOS_SCOPE_NOTE     = RDF::URI.new('http://www.w3.org/2004/02/skos/core#scopeNote')
+  DC_SOURCE           = RDF::URI.new('http://purl.org/dc/terms/source')
+  DC_IS_PART_OF       = RDF::URI.new('http://purl.org/dc/terms/isPartOf')
 
   SCHEMA_PERSON       = RDF::URI.new('http://schema.org/Person')
   SCHEMA_ORGANIZATION = RDF::URI.new('http://schema.org/Organization')

@@ -10,6 +10,9 @@ require "bib_card/author"
 require "bib_card/person"
 require "bib_card/crawler"
 require "bib_card/db_pedia/resource"
+require "bib_card/getty/scope_note"
+require "bib_card/getty/source"
+require "bib_card/getty/subject"
 
 module BibCard
 
