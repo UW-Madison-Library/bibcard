@@ -122,4 +122,16 @@ describe BibCard::Person do
       expect(school_with_source.source.name).to eq("The Feminist Companion to Literature in English")
     end
   end
+  
+  context "a person with film appearances" do
+    before(:all) do
+      @person = person("pollan")
+    end
+    
+    it "has films" do
+      expected = ["Cowspiracy", "Food, Inc.", "Fresh (2009 film)", "King Corn (film)"]
+      actual = @person.dbpedia_resource.film_appearances.map {|appearance| appearance.name}.sort
+      expect(actual).to eq(expected)
+    end
+  end
 end

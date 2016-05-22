@@ -1,0 +1,8 @@
+{
+  "head" : {
+    "vars" : [ "notableWork", "notableWorkLabel", "isbn", "oclcNumber" ]
+  },
+  "results" : {
+    "bindings" : [ ]
+  }
+}

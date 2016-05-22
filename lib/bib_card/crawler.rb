@@ -60,7 +60,7 @@ module BibCard
         graph << [@subject, SCHEMA_SAME_AS, self.wikidata_uri] if self.wikidata_uri
         graph << profile_graph if self.dbpedia_uri
         graph << influence_graph if self.dbpedia_uri
-        # graph << film_graph if self.dbpedia_uri
+        graph << film_graph if self.dbpedia_uri
         graph << getty_note_graph if self.getty_uri
         graph << wikidata_graph if self.wikidata_uri
       end

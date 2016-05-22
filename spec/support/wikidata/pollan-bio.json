@@ -1,0 +1,14 @@
+{
+  "head" : {
+    "vars" : [ "description", "workLocation", "workLocationLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "American author, journalist, activist, and professor of journalism"
+      }
+    } ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "head" : {
+    "vars" : [ "inst", "instLabel", "statement", "reference", "source", "sourceLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q1138996-52F053B4-593E-4C41-87A6-384292FD362A"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q817902"
+      },
+      "instLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Bennington College"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q1138996-861C8138-1836-45FC-8E95-41A476E32D46"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49088"
+      },
+      "instLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Columbia University"
+      }
+    } ]
+  }
+}

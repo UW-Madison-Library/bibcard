@@ -1,0 +1,2 @@
+{ "head": { "link": [], "vars": ["influence", "influenceGivenName", "influenceSurname", "influenceSameAs"] },
+  "results": { "distinct": false, "ordered": true, "bindings": [ ] } }

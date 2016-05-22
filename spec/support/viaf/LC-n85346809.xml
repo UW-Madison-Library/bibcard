@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:schema="http://schema.org/" xmlns:genont="http://www.w3.org/2006/gen/ont#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bgn="http://bibliograph.net/" xmlns:umbel="http://umbel.org/umbel#" xmlns:pto="http://www.productontology.org/id/">
+    <rdf:Description rdf:about="http://viaf.org/viaf/79485320/">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+        <void:inDataset xmlns:void="http://rdfs.org/ns/void#" rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/79485320">
+        <dcterms:identifier xmlns:dcterms="http://purl.org/dc/terms/">79485320</dcterms:identifier>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <rdf:type rdf:resource="http://schema.org/Person"/>
+        <schema:birthDate>1955-02-06</schema:birthDate>
+        <schema:name xml:lang="en">Michael Pollan</schema:name>
+        <schema:name xml:lang="en">Michael Pollan</schema:name>
+        <schema:name xml:lang="en">Michael Pollan</schema:name>
+        <schema:name xml:lang="en">Michael Pollan</schema:name>
+        <schema:name xml:lang="en-US">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-US">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="en-US">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-US">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="hr-HR">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr-HR">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="hr-HR">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="hr-HR">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="nl-NL">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl-NL">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="nl-NL">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="nl-NL">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="ca-ES">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca-ES">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="ca-ES">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ca-ES">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="en-KR">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-KR">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="en-KR">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-KR">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="pl-PL">Michael Pollan</schema:name>
+        <schema:name xml:lang="pl-PL">Michael Pollan</schema:name>
+        <schema:name xml:lang="de-DE">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de-DE">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="de-DE">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="de-DE">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="en-IL">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-IL">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="en-IL">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="en-IL">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="ja-JP">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja-JP">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="ja-JP">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="ja-JP">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="cs-CZ">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs-CZ">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="cs-CZ">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="cs-CZ">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="lv-LV">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv-LV">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="lv-LV">Michael Pollan</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="lv-LV">Michael Pollan</skos:prefLabel>
+        <schema:name xml:lang="fr-FR">Michael Pollan</schema:name>
+        <schema:name xml:lang="fr-FR">Michael Pollan</schema:name>
+        <schema:name xml:lang="he-IL">מייקל פולן</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he-IL">מייקל פולן</skos:prefLabel>
+        <schema:name xml:lang="he-IL">מייקל פולן</schema:name>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:lang="en">Warning: skos:prefLabels are not ensured against change!</rdfs:comment>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#" xml:lang="he-IL">מייקל פולן</skos:prefLabel>
+        <schema:alternateName>מייקל פולאן</schema:alternateName>
+        <schema:givenName>מייקל</schema:givenName>
+        <schema:familyName>פולאן</schema:familyName>
+        <schema:alternateName>מייקל פולן</schema:alternateName>
+        <schema:givenName>מייקל</schema:givenName>
+        <schema:familyName>פולן</schema:familyName>
+        <schema:alternateName>מיקל פולן</schema:alternateName>
+        <schema:givenName>מיקל</schema:givenName>
+        <schema:familyName>פולן</schema:familyName>
+        <schema:alternateName>מיקל פולן</schema:alternateName>
+        <schema:givenName>מיקל</schema:givenName>
+        <schema:familyName>פולן</schema:familyName>
+        <schema:alternateName>マイケル ポーラン</schema:alternateName>
+        <schema:givenName>マイケル</schema:givenName>
+        <schema:familyName>ポーラン</schema:familyName>
+        <schema:alternateName>마이클 폴란</schema:alternateName>
+        <schema:givenName>마이클</schema:givenName>
+        <schema:familyName>폴란</schema:familyName>
+        <schema:alternateName>Michael Pollan</schema:alternateName>
+        <schema:alternateName>Michael Pollan</schema:alternateName>
+        <schema:alternateName>Michael Pollan</schema:alternateName>
+        <schema:alternateName>Майкл Поллан</schema:alternateName>
+        <schema:givenName>Майкл</schema:givenName>
+        <schema:familyName>Поллан</schema:familyName>
+        <schema:alternateName>מייקל פולן</schema:alternateName>
+        <schema:alternateName>مایکل پولان</schema:alternateName>
+        <schema:alternateName>米高·波倫</schema:alternateName>
+        <schema:alternateName>迈克尔·波伦</schema:alternateName>
+        <schema:alternateName>麥可·波倫</schema:alternateName>
+        <schema:alternateName>마이클 폴란</schema:alternateName>
+        <schema:description>American author, journalist, activist, and professor of journalism</schema:description>
+        <schema:description>American author, journalist, activist, and professor of journalism</schema:description>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://d-nb.info/gnd/123673895"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://isni.org/isni/000000011449365X"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://id.loc.gov/authorities/names/n85346809"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://id.ndl.go.jp/auth/entity/00695527"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://www.idref.fr/072282029/id"/>
+        </schema:sameAs>
+        <schema:sameAs>
+            <rdf:Description rdf:about="http://www.wikidata.org/entity/Q1138996"/>
+        </schema:sameAs>
+        <schema:sameAs rdf:resource="http://dbpedia.org/resource/Michael_Pollan"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/ISNI%7C000000011449365X#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/ISNI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Michael Pollan American author, journalist, activist, and professor of journalism</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Michael Pollan US-amerikanischer Journalist</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Michael Pollan giornalista statunitense</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Поллан, Майкл</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">מייקל פולן</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פולאן, מייקל</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פולן, מייקל 1955-</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פולן, מיקל 1955-</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">مایکل پولان ژورنالیست، نویسنده، و استاد دانشگاه آمریکایی</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ポーラン, マイケル</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">米高·波倫</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">迈克尔·波伦</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">麥可·波倫</skos:altLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">마이클 폴란</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LC%7Cn++85346809#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פולאן, מייקל</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NSK%7C000458661#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NSK"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NTA%7C162452187#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NTA"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+        <schema:url>http://opc4.kb.nl/PPN?PPN=162452187</schema:url>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/BNC%7Ca10779796#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/BNC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/KRNLK%7CKAC200204511#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/KRNLK"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">폴란, 마이클</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NUKAT%7Cn+2010006136#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NUKAT"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael, 1955-....</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/DNB%7C123673895#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/DNB"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael, 1955-....</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000291296#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael, 1955-....</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פולן, מייקל, 1955-</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פולן, מיקל, 1955-</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NDL%7C00695527#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NDL"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael, 1955-....</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">ポーラン, マイケル</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NKC%7Cosa2013769735#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NKC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael, 1955-....</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LNB%7CLNC10-000222874#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LNB"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael, 1955-....</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/SUDOC%7C072282029#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/SUDOC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael, 1955-....</skos:prefLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/NLI%7C000291296#skos:Concept">
+        <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/NLI"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Pollan, Michael, 1955-....</skos:prefLabel>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פולן, מייקל, 1955-</skos:prefLabel>
+        <skos:altLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">פולן, מיקל, 1955-</skos:altLabel>
+        <foaf:focus xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/79485320"/>
+    </rdf:Description>
+</rdf:RDF>
