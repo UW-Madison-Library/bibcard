@@ -1,0 +1,86 @@
+{
+  "head" : {
+    "vars" : [ "notableWork", "notableWorkLabel", "isbn", "oclcNumber" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5475468"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Four Saints in Three Acts"
+      }
+    }, {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6618986"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Autobiography of Alice B. Toklas"
+      }
+    }, {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5287333"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Doctor Faustus Lights the Lights"
+      }
+    }, {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7699617"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tender buttons: objects, food, rooms"
+      }
+    }, {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5417646"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Everybody's Autobiography"
+      }
+    }, {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7749704"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Making of Americans"
+      }
+    }, {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7797597"
+      },
+      "isbn" : {
+        "type" : "literal",
+        "value" : "978-1-59569-042-5"
+      },
+      "oclcNumber" : {
+        "type" : "literal",
+        "value" : "177801689"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Three Lives"
+      }
+    } ]
+  }
+}

@@ -24,5 +24,8 @@ def person(name)
   stub_request(:get, config[name]["sparql_urls"]["influences"]).to_return(body: body_content("dbpedia/#{name}-influences.json"), :status => 200)
   stub_request(:get, config[name]["sparql_urls"]["influenced"]).to_return(body: body_content("dbpedia/#{name}-influenced.json"), :status => 200)
   stub_request(:get, config[name]["sparql_urls"]["getty_note"]).to_return(body: body_content("getty/#{name}-note.json"), :status => 200)
+  stub_request(:get, config[name]["sparql_urls"]["alma_maters"]).to_return(body: body_content("wikidata/#{name}-alma-maters.json"), :status => 200)
+  stub_request(:get, config[name]["sparql_urls"]["bio"]).to_return(body: body_content("wikidata/#{name}-bio.json"), :status => 200)
+  stub_request(:get, config[name]["sparql_urls"]["notable_works"]).to_return(body: body_content("wikidata/#{name}-notable-works.json"), :status => 200)
   BibCard.author_from_viaf_lc(viaf_url, lc_uri)
 end

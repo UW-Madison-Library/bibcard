@@ -1,0 +1,14 @@
+{
+  "head" : {
+    "vars" : [ "description", "workLocation", "workLocationLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "American art collector and experimental writer of novels, poetry and plays"
+      }
+    } ]
+  }
+}

@@ -37,6 +37,10 @@ module BibCard
       self.getty_uri.as(BibCard::Getty::Subject) if self.getty_uri
     end
     
+    def wikidata_entity
+      self.wikidata_uri.as(BibCard::Wikidata::Entity) if self.wikidata_uri
+    end
+
     protected
     
     def related_entity_by_uri_prefix(domain)

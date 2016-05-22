@@ -86,4 +86,40 @@ describe BibCard::Person do
       expect(actual).to eq(expected)
     end
   end
+  
+  context "a person with a Wikidata entity" do
+    before(:all) do
+      @person = person("picasso")
+    end
+    
+    it "has a description" do
+      description = "Spanish painter, sculptor, printmaker, ceramicist, and stage designer"
+      expect(@person.wikidata_entity.description).to eq(description)
+    end
+    
+    it "has a work location" do
+      expect(@person.wikidata_entity.work_location.name).to eq("Paris")
+    end
+    
+    it "has alma maters" do
+      expect(@person.wikidata_entity.alma_maters.size).to eq(1)
+      expect(@person.wikidata_entity.alma_maters.first.name).to eq("Real Academia de Bellas Artes de San Fernando")
+    end
+    
+    it "has notable works" do
+      notable_work_names = @person.wikidata_entity.notable_works.map {|work| work.name}.sort
+      expect(notable_work_names).to eq(["Guernica", "Les Demoiselles d'Avignon"])
+    end
+  end
+  
+  context "a person with alma maters" do
+    before(:all) do
+      @person = person("stein")
+    end
+    
+    it "can have source citations" do
+      school_with_source = @person.wikidata_entity.alma_maters.select {|school| school.name == "Radcliffe College"}.first
+      expect(school_with_source.source.name).to eq("The Feminist Companion to Literature in English")
+    end
+  end
 end

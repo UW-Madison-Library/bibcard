@@ -1,0 +1,28 @@
+{
+  "head" : {
+    "vars" : [ "notableWork", "notableWorkLabel", "isbn", "oclcNumber" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q175036"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Guernica"
+      }
+    }, {
+      "notableWork" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q910199"
+      },
+      "notableWorkLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Les Demoiselles d'Avignon"
+      }
+    } ]
+  }
+}

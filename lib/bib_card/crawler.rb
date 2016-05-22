@@ -62,7 +62,7 @@ module BibCard
         graph << influence_graph if self.dbpedia_uri
         # graph << film_graph if self.dbpedia_uri
         graph << getty_note_graph if self.getty_uri
-        # graph << wikidata_graph if self.wikidata_uri
+        graph << wikidata_graph if self.wikidata_uri
       end
       graph
     end
@@ -240,10 +240,6 @@ module BibCard
       get_data(sparql, :getty)
     end
     
-    # def wikidata_entity
-    #   Spira.repository.query(subject: self.wikidata_uri).first.subject.as(WikiData::Entity)
-    # end
-    
     def wikidata_graph
       graph = RDF::Graph.new
       begin
@@ -286,7 +282,7 @@ module BibCard
           graph << [work_uri, WDT_OCLC_NUMBER, work["oclcNumber"]["value"]] if work["oclcNumber"]
         end
       rescue RestClient::RequestTimeout
-        Rails.logger.warn("WARNING: WikiData failed to respond. SPARQL request timed out after 5 seconds.")
+        # log message "WARNING: WikiData failed to respond. SPARQL request timed out after 5 seconds."
       end
       graph
     end

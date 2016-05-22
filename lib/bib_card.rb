@@ -13,6 +13,7 @@ require "bib_card/db_pedia/resource"
 require "bib_card/getty/scope_note"
 require "bib_card/getty/source"
 require "bib_card/getty/subject"
+require "bib_card/wikidata/entity"
 
 module BibCard
 

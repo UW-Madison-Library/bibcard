@@ -1,0 +1,23 @@
+{
+  "head" : {
+    "vars" : [ "description", "workLocation", "workLocationLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "description" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Spanish painter, sculptor, printmaker, ceramicist, and stage designer"
+      },
+      "workLocation" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q90"
+      },
+      "workLocationLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Paris"
+      }
+    } ]
+  }
+}

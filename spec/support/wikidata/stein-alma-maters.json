@@ -1,0 +1,90 @@
+{
+  "head" : {
+    "vars" : [ "inst", "instLabel", "statement", "reference", "source", "sourceLabel" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/q188385-79FEADD3-B049-4517-A6FC-9554CF125940"
+      },
+      "reference" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/reference/e05206e415d45d068d5346f7bfbd1ae9c12acf71"
+      },
+      "source" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18328141"
+      },
+      "sourceLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Feminist Companion to Literature in English"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49124"
+      },
+      "instLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Radcliffe College"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q188385-BC748E6E-A11E-498B-A986-366F6485CEF1"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13371"
+      },
+      "instLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harvard University"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q188385-4A39832D-C603-4C2B-B80E-41258F86103E"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q193727"
+      },
+      "instLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johns Hopkins University"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/q188385-11C8840A-D2FF-410D-A0B3-905B704619B1"
+      },
+      "reference" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/reference/e05206e415d45d068d5346f7bfbd1ae9c12acf71"
+      },
+      "source" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18328141"
+      },
+      "sourceLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Feminist Companion to Literature in English"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q858729"
+      },
+      "instLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johns Hopkins School of Medicine"
+      }
+    } ]
+  }
+}
