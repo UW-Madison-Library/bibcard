@@ -45,5 +45,22 @@ module BibCard
     crawler = Crawler.new(uri, viaf_graph)
     crawler.creator_graph.dump(:ntriples)
   end
+  
+  # Given a VIAF URL, give me the raw data as N-Triples required to construct a BibCard
+  def self.ntriples_for_lcnaf_id(lcnaf_id)
+    crawler = self.viaf_crawler_for_lcnaf_id(lcnaf_id)
+    crawler.creator_graph.dump(:ntriples)
+  end
+  
+  private 
+  
+  def self.viaf_crawler_for_lcnaf_id(lcnaf_id)
+    viaf_url   = "http://viaf.org/viaf/sourceID/LC|#{lcnaf_id}"
+    lc_uri     = "http://id.loc.gov/authorities/names/#{lcnaf_id}"
+    viaf_graph = RDF::Graph.load(URI.encode(viaf_url), format: :rdfxml)
+    viaf_uri   = viaf_graph.query(predicate: SCHEMA_SAME_AS, object: RDF::URI.new(lc_uri)).first.subject
+    
+    Crawler.new(viaf_uri, viaf_graph)
+  end
 
 end

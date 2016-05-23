@@ -24,4 +24,24 @@ describe BibCard do
       expect(@graph.size).to eq(194)
     end
   end
+  
+  context "fetching serialized data for an LCNAF identifier" do
+    before(:all) do
+      config = sparql_config
+      lcnaf_id = "n78086005"
+      url = "http://viaf.org/viaf/sourceID/LC|#{lcnaf_id}"
+      stub_request(:get, url).to_return(body: body_content("viaf/LC-#{lcnaf_id}.xml"), :status => 200)
+      stub_sparql_queries(config, "picasso")
+      
+      raw = BibCard.ntriples_for_lcnaf_id(lcnaf_id)
+      @graph = RDF::Graph.new
+      RDF::Reader.for(:ntriples).new(raw) do |reader|
+        reader.each_statement {|statement| @graph << statement}
+      end
+    end
+    
+    it "has the right number of RDF statements" do
+      expect(@graph.size).to eq(194)
+    end
+  end
 end
