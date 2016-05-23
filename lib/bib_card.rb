@@ -38,5 +38,12 @@ module BibCard
     Spira.repository = crawler.creator_graph
     viaf_uri.as(Person)
   end
+  
+  # Given a VIAF URI, give me the raw data as N-Triples required to construct a BibCard
+  def self.ntriples_for_viaf(uri)
+    viaf_graph = RDF::Graph.load(uri, format: :rdfxml)
+    crawler = Crawler.new(uri, viaf_graph)
+    crawler.creator_graph.dump(:ntriples)
+  end
 
 end
