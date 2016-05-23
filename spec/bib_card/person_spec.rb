@@ -1,11 +1,15 @@
 describe BibCard::Person do 
-  context "when loading a personal name authority from a VIAF URL/LC URI commbination" do
+  context "a person loaded by name authority from a combination of VIAF URL/LC URI" do
     before(:all) do
       @person = person("stein")
     end
     
     it "has a URI" do
       expect(@person.uri).to eq(RDF::URI.new("http://viaf.org/viaf/22149082"))
+    end
+    
+    it "has a type" do
+      expect(@person.types).to include(RDF::URI.new("http://schema.org/Person"))
     end
     
     it "is a person" do
