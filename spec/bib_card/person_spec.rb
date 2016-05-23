@@ -32,6 +32,10 @@ describe BibCard::Person do
       expect(@person.death_date).to eq("1946-07-27")
     end
     
+    it "matches an LCNAF personal name" do
+      expect(@person.loc_uri).to eq(RDF::URI.new("http://id.loc.gov/authorities/names/n79006977"))
+    end
+    
     it "matches a Getty identity" do
       expect(@person.getty_uri).to eq(RDF::URI.new("http://vocab.getty.edu/ulan/500273319"))
     end

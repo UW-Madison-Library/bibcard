@@ -13,6 +13,11 @@ module BibCard
       english_value(SCHEMA_NAME).to_s
     end
     
+    def loc_uri
+      stmt = related_entity_by_uri_prefix("http://id.loc.gov/authorities/names/")
+      stmt.nil? ? nil : stmt.object
+    end
+    
     def dbpedia_uri
       stmt = related_entity_by_uri_prefix("http://dbpedia.org/resource")
       stmt.nil? ? nil : stmt.object

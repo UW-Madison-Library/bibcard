@@ -33,6 +33,11 @@ module BibCard
       stmt.nil? ? nil : stmt.object
     end
     
+    def loc_uri
+      stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('http://id.loc.gov/authorities/names/')}.first
+      stmt.nil? ? nil : stmt.object
+    end
+    
     def dbpedia_uri
       stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('http://dbpedia.org/resource')}.first
       stmt.nil? ? nil : stmt.object
@@ -55,6 +60,7 @@ module BibCard
         graph << [@subject, SCHEMA_NAME, self.name]
         graph << [@subject, SCHEMA_BIRTHDATE, self.birth_date] if self.birth_date
         graph << [@subject, SCHEMA_DEATHDATE, self.death_date] if self.death_date
+        graph << [@subject, SCHEMA_SAME_AS, self.loc_uri] if self.loc_uri
         graph << [@subject, SCHEMA_SAME_AS, self.dbpedia_uri] if self.dbpedia_uri
         graph << [@subject, SCHEMA_SAME_AS, self.getty_uri] if self.getty_uri
         graph << [@subject, SCHEMA_SAME_AS, self.wikidata_uri] if self.wikidata_uri
