@@ -21,7 +21,7 @@ describe BibCard do
     end
     
     it "has the right number of RDF statements" do
-      expect(@graph.size).to eq(194)
+      expect(@graph.size).to eq(195)
     end
   end
   
@@ -41,7 +41,7 @@ describe BibCard do
     end
     
     it "has the right number of RDF statements" do
-      expect(@graph.size).to eq(194)
+      expect(@graph.size).to eq(195)
     end
   end
 end
