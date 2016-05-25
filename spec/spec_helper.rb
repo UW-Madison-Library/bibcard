@@ -15,16 +15,15 @@ end
 
 def person(name)
   config = sparql_config
-  
-  viaf_url = "http://viaf.org/viaf/sourceID/LC|#{config[name]["lcnaf_id"]}"
-  lc_uri   = "http://id.loc.gov/authorities/names/#{config[name]["lcnaf_id"]}"
-  stub_request(:get, viaf_url).to_return(body: body_content("viaf/LC-#{config[name]["lcnaf_id"]}.xml"), :status => 200)
   stub_sparql_queries(config, name)
+  uri = "http://id.loc.gov/authorities/names/#{config[name]["lcnaf_id"]}"
   
-  BibCard.author_from_viaf_lc(viaf_url, lc_uri)
+  BibCard.person(uri)
 end
 
 def stub_sparql_queries(config, name)
+  stub_request(:get, config[name]["viaf_uri"]).to_return(body: body_content("viaf/LC-#{config[name]["lcnaf_id"]}.xml"), :status => 200)
+  stub_request(:get, config[name]["viaf_lcnaf_url"]).to_return(body: body_content("viaf/LC-#{config[name]["lcnaf_id"]}.xml"), :status => 200)
   stub_request(:get, config[name]["sparql_urls"]["profile"]).to_return(body: body_content("dbpedia/#{name}-profile.json"), :status => 200)
   stub_request(:get, config[name]["sparql_urls"]["influences"]).to_return(body: body_content("dbpedia/#{name}-influences.json"), :status => 200)
   stub_request(:get, config[name]["sparql_urls"]["influenced"]).to_return(body: body_content("dbpedia/#{name}-influenced.json"), :status => 200)
@@ -33,4 +32,12 @@ def stub_sparql_queries(config, name)
   stub_request(:get, config[name]["sparql_urls"]["alma_maters"]).to_return(body: body_content("wikidata/#{name}-alma-maters.json"), :status => 200)
   stub_request(:get, config[name]["sparql_urls"]["bio"]).to_return(body: body_content("wikidata/#{name}-bio.json"), :status => 200)
   stub_request(:get, config[name]["sparql_urls"]["notable_works"]).to_return(body: body_content("wikidata/#{name}-notable-works.json"), :status => 200)
+end
+
+def read_ntriples(raw)
+  graph = RDF::Graph.new
+  RDF::Reader.for(:ntriples).new(raw) do |reader|
+    reader.each_statement {|statement| graph << statement}
+  end
+  graph
 end

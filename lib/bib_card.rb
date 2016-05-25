@@ -17,50 +17,60 @@ require "bib_card/wikidata/entity"
 
 module BibCard
 
-  # Note that this is a less than ideal way to instantiate a BibCard::Person object.
-  # At the time of writing the Alma vendor platform returns author objects in the following format:
-  #
-  #   {
-  #     "@id":"http://id.loc.gov/authorities/names/n79032058",
-  #     "label":"Wittgenstein, Ludwig, 1889-1951.",
-  #     "sameAs":"http://viaf.org/viaf/sourceID/LC|n79032058"
-  #   }
-  #
-  # Ultimately what we want is the VIAF URI and this is the best hack for resolving from the LC URI 
-  # and VIAF URL to the VIAF URI like http://viaf.org/viaf/24609378
-  def self.author_from_viaf_lc(viaf_url, lc_uri)
-    # First load the VIAF data...
-    viaf_graph = RDF::Graph.load(URI.encode(viaf_url), format: :rdfxml)
-    viaf_uri   = viaf_graph.query(predicate: SCHEMA_SAME_AS, object: RDF::URI.new(lc_uri)).first.subject
-    crawler    = Crawler.new(viaf_uri, viaf_graph)
-    
-    # and use it as a basis for crawling the other data sources 
-    Spira.repository = crawler.creator_graph
+  def self.person_data(uri)
+    graph, viaf_uri = creator_graph_and_viaf_uri(uri)
+    graph.dump(:ntriples)
+  end
+  
+  def self.person(uri)
+    graph, viaf_uri = creator_graph_and_viaf_uri(uri)
+    Spira.repository = graph
     viaf_uri.as(Person)
   end
   
-  # Given a VIAF URI, give me the raw data as N-Triples required to construct a BibCard
-  def self.ntriples_for_viaf(uri)
-    viaf_graph = RDF::Graph.load(uri, format: :rdfxml)
-    crawler = Crawler.new(uri, viaf_graph)
-    crawler.creator_graph.dump(:ntriples)
-  end
+  private
   
-  # Given a VIAF URL, give me the raw data as N-Triples required to construct a BibCard
-  def self.ntriples_for_lcnaf_id(lcnaf_id)
-    crawler = self.viaf_crawler_for_lcnaf_id(lcnaf_id)
-    crawler.creator_graph.dump(:ntriples)
-  end
-  
-  private 
-  
-  def self.viaf_crawler_for_lcnaf_id(lcnaf_id)
-    viaf_url   = "http://viaf.org/viaf/sourceID/LC|#{lcnaf_id}"
-    lc_uri     = "http://id.loc.gov/authorities/names/#{lcnaf_id}"
-    viaf_graph = RDF::Graph.load(URI.encode(viaf_url), format: :rdfxml)
-    viaf_uri   = viaf_graph.query(predicate: SCHEMA_SAME_AS, object: RDF::URI.new(lc_uri)).first.subject
+  def self.creator_graph_and_viaf_uri(uri)
+    # Convert the URI to an RDF::URI object if it is not already
+    uri = convert_uri(uri)
     
-    Crawler.new(viaf_uri, viaf_graph)
+    # 1. Get the VIAF data and determine the VIAF URI
+    if lcnaf_uri?(uri)
+      # Load the VIAF data graph and determine the VIAF URI based on the LCNAF URI.
+      identifier = lcnaf_uri_to_identifier(uri)
+      viaf_url   = URI.encode("http://viaf.org/viaf/sourceID/LC|#{identifier}")
+      viaf_graph = RDF::Graph.load(viaf_url, format: :rdfxml)
+      viaf_uri   = viaf_graph.query(predicate: SCHEMA_SAME_AS, object: uri).first.subject
+    elsif viaf_uri?(uri)
+      # Load the VIAF data graph using the URI
+      viaf_uri   = uri
+      viaf_graph = RDF::Graph.load(uri, format: :rdfxml)
+    end
+    
+    # 2. Crawl and use it as a basis for crawling the other data sources 
+    crawler = Crawler.new(viaf_uri, viaf_graph)
+    graph = crawler.creator_graph
+    [graph, viaf_uri]
   end
-
+  
+  def self.viaf_uri?(uri)
+    url = uri.to_s
+    url.match(/^http:\/\/viaf\.org\/viaf\/\d+$/).nil? ? false : true
+  end
+  
+  def self.lcnaf_uri?(uri)
+    url = uri.to_s
+    url.match(/^http:\/\/id\.loc\.gov\/authorities\/names\/n\d+$/).nil? ? false : true
+  end
+  
+  def self.lcnaf_uri_to_identifier(uri)
+    url = uri.to_s
+    url.gsub("http://id.loc.gov/authorities/names/", "")
+  end
+  
+  # Convert
+  def self.convert_uri(uri)
+    uri.is_a?(RDF::URI) ? uri : RDF::URI.new(uri)
+  end
+  
 end
