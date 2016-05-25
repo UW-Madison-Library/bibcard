@@ -114,8 +114,8 @@ module BibCard
       profile = self.dbpedia_profile
       if profile
         graph << [dbpedia_subject, DBO_ABSTRACT, profile["abstract"]["value"]] if profile["abstract"]
-        graph << [dbpedia_subject, DBO_FOUNDED, profile["foundedDate"]["value"]] if profile["foundedDate"]
-        graph << [dbpedia_subject, DBO_LOCATION, profile["location"]["value"]] if profile["location"]
+        graph << [dbpedia_subject, DBP_FOUNDED, profile["foundedDate"]["value"]] if profile["foundedDate"]
+        graph << [dbpedia_subject, DBP_LOCATION, profile["location"]["value"]] if profile["location"]
       end
       graph
     end

@@ -8,8 +8,8 @@ module BibCard
       property :surname, predicate: FOAF_SURNAME, type: XSD.string
       property :rdfs_label, predicate: RDF::RDFS.label, type: XSD.string
       property :abstract, predicate: BibCard::DBO_ABSTRACT, type: XSD.string
-      # property :founded, predicate: DBP_FOUNDED, type: XSD.string
-      # property :location, predicate: DBP_LOCATION, type: XSD.string
+      property :founded, predicate: DBP_FOUNDED, type: XSD.string
+      property :location, predicate: DBP_LOCATION, type: XSD.string
       has_many :influences, predicate: DBO_INFLUENCED_BY, type: 'DBPedia::Resource'
       has_many :influencees, predicate: DBO_INFLUENCED, type: 'DBPedia::Resource'
     
