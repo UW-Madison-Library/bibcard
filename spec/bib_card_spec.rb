@@ -11,6 +11,11 @@ describe BibCard do
       uri = "http://id.loc.gov/authorities/names/no123456"
       expect(BibCard.lcnaf_uri?(uri)).to be true
     end
+
+    it "detects a LCNAF URI with the prefix 'nr'" do
+      uri = "http://id.loc.gov/authorities/names/nr88009360"
+      expect(BibCard.lcnaf_uri?(uri)).to be true
+    end
   end
   
   context "when loading a person" do
