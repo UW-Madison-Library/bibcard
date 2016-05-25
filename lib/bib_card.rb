@@ -28,6 +28,16 @@ module BibCard
     viaf_uri.as(Person)
   end
   
+  def self.viaf_uri?(uri)
+    url = uri.to_s
+    url.match(/^http:\/\/viaf\.org\/viaf\/\d+$/).nil? ? false : true
+  end
+  
+  def self.lcnaf_uri?(uri)
+    url = uri.to_s
+    url.match(/^http:\/\/id\.loc\.gov\/authorities\/names\/no{0,1}\d+$/).nil? ? false : true
+  end
+  
   private
   
   def self.creator_graph_and_viaf_uri(uri)
@@ -51,16 +61,6 @@ module BibCard
     crawler = Crawler.new(viaf_uri, viaf_graph)
     graph = crawler.creator_graph
     [graph, viaf_uri]
-  end
-  
-  def self.viaf_uri?(uri)
-    url = uri.to_s
-    url.match(/^http:\/\/viaf\.org\/viaf\/\d+$/).nil? ? false : true
-  end
-  
-  def self.lcnaf_uri?(uri)
-    url = uri.to_s
-    url.match(/^http:\/\/id\.loc\.gov\/authorities\/names\/n\d+$/).nil? ? false : true
   end
   
   def self.lcnaf_uri_to_identifier(uri)

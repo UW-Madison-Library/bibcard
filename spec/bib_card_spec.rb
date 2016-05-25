@@ -1,6 +1,18 @@
 require 'spec_helper'
 
 describe BibCard do
+  context "when parsing URIs" do
+    it "detects a LCNAF URI with the prefix 'n'" do
+      uri = "http://id.loc.gov/authorities/names/n123456"
+      expect(BibCard.lcnaf_uri?(uri)).to be true
+    end
+
+    it "detects a LCNAF URI with the prefix 'no'" do
+      uri = "http://id.loc.gov/authorities/names/no123456"
+      expect(BibCard.lcnaf_uri?(uri)).to be true
+    end
+  end
+  
   context "when loading a person" do
     before(:all) do
       @config = sparql_config
