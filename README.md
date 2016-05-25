@@ -1,8 +1,11 @@
 # BibCard
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bib_card`. To experiment with that code, run `bin/console` for an interactive prompt.
+BibCard is a Ruby library for retrieving and assembling knowledge card information about the authors found in bibliographic data. It takes identifiers like Library of Congress Name Authority File (LCNAF) IDs or VIAF URIs as input and crawls Linked Open Data sources on the web to assemble a Ruby objects or RDF serializations. This library will fetch data from:
 
-TODO: Delete this and the text above, and describe your gem
+* [Virtual International Authority File (VIAF)](http://viaf.org/)
+* [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
+* [DBpedia](http://wiki.dbpedia.org/)
+* [Getty Vocabularies LOD](http://vocab.getty.edu/)
 
 ## Installation
 
@@ -22,7 +25,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'bib_card'
+
+lcnaf_id = "n78086005"
+person = BibCard
+````
 
 ## Development
 
