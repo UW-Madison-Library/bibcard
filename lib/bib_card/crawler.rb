@@ -1,8 +1,6 @@
 module BibCard
   class Crawler
     
-    # TODO: ActiveSupport logging/instrumentation. See Hathi example
-    
     def initialize(uri, repository)
       @subject = RDF::URI.new(uri)
       @repository = repository
@@ -79,9 +77,10 @@ module BibCard
         graph << profile_graph
         graph << influence_graph
         graph << film_graph
-      rescue RestClient::RequestTimeout, Errno::EACCES => e
-        BibCard.logger.warn "DBPedia failed to respond. SPARQL request timed out after 5 seconds."
-        BibCard.logger.warn e.message
+      rescue RestClient::RequestTimeout
+        BibCard.logger.warn "DBPedia failed to respond. SPARQL query request timed out after 5 seconds for #{@current_query}."
+      rescue Exception => e
+        BibCard.logger.warn "DBPedia failed to respond. SPARQL query request for #{@current_query}. Error: #{e.message}"
       end
       graph
     end
@@ -111,6 +110,7 @@ module BibCard
     end
     
     def film_graph
+      @current_query = "film graph"
       graph = RDF::Graph.new
       self.film_appearances.each do |appearance|
         film = RDF::URI.new(appearance["film"]["value"])
@@ -122,6 +122,7 @@ module BibCard
     end
     
     def profile_graph
+      @current_query = "profile graph"
       graph = RDF::Graph.new
       dbpedia_subject = self.dbpedia_uri
       profile = self.dbpedia_profile
@@ -134,6 +135,7 @@ module BibCard
     end
 
     def influences
+      @current_query = "influences graph"
       sparql = "
       #{self.dbpedia_sparql_prefixes}
       
@@ -158,6 +160,7 @@ module BibCard
     end
     
     def influenced
+      @current_query = "influence upon graph"
       sparql = "
       #{self.dbpedia_sparql_prefixes}
       
@@ -213,25 +216,32 @@ module BibCard
     end
   
     def getty_note_graph
+      @current_query = "getty note graph"
       graph = RDF::Graph.new
-      getty_subject = self.getty_uri
-      self.getty_scope_notes.each do |scope_note|
-        # Add the scope note itself
-        scope_note_uri = RDF::URI.new(scope_note["scopeNote"]["value"])
-        graph << [getty_subject, SKOS_SCOPE_NOTE, scope_note_uri]
-        graph << [scope_note_uri, RDF.value, scope_note["scopeNoteValue"]["value"]]
+      begin
+        getty_subject = self.getty_uri
+        self.getty_scope_notes.each do |scope_note|
+          # Add the scope note itself
+          scope_note_uri = RDF::URI.new(scope_note["scopeNote"]["value"])
+          graph << [getty_subject, SKOS_SCOPE_NOTE, scope_note_uri]
+          graph << [scope_note_uri, RDF.value, scope_note["scopeNoteValue"]["value"]]
         
-        # Add the sources/citations for the scope note
-        source_uri = RDF::URI.new(scope_note["source"]["value"])
-        graph << [scope_note_uri, DC_SOURCE, source_uri]
-        if scope_note["sourceShortTitle"]
-          graph << [source_uri, BIBO_SHORT_TITLE, scope_note["sourceShortTitle"]["value"]]
-        else
-          parent_uri = RDF::URI.new(scope_note["parent"]["value"])
-          graph << [source_uri, DC_IS_PART_OF, parent_uri]
-          graph << [source_uri, RDF.type, BIBO_DOCUMENT_PART]
-          graph << [parent_uri, BIBO_SHORT_TITLE, scope_note["parentShortTitle"]["value"]]
+          # Add the sources/citations for the scope note
+          source_uri = RDF::URI.new(scope_note["source"]["value"])
+          graph << [scope_note_uri, DC_SOURCE, source_uri]
+          if scope_note["sourceShortTitle"]
+            graph << [source_uri, BIBO_SHORT_TITLE, scope_note["sourceShortTitle"]["value"]]
+          else
+            parent_uri = RDF::URI.new(scope_note["parent"]["value"])
+            graph << [source_uri, DC_IS_PART_OF, parent_uri]
+            graph << [source_uri, RDF.type, BIBO_DOCUMENT_PART]
+            graph << [parent_uri, BIBO_SHORT_TITLE, scope_note["parentShortTitle"]["value"]]
+          end
         end
+      rescue RestClient::RequestTimeout
+        BibCard.logger.warn "Getty failed to respond. SPARQL query request timed out after 5 seconds for #{@current_query}."
+      rescue Exception => e
+        BibCard.logger.warn "Getty failed to respond. SPARQL query request for #{@current_query}. Error: #{e.message}"
       end
       graph
     end
@@ -264,6 +274,7 @@ module BibCard
       begin
         wikidata_subject = self.wikidata_uri
         self.alma_maters.each do |alma_mater|
+          @current_query = "alma maters graph"
           am_inst_uri   = RDF::URI.new(alma_mater["inst"]["value"])
           am_edu_stmt   = RDF::URI.new(alma_mater["statement"]["value"])
         
@@ -285,6 +296,7 @@ module BibCard
       
         bio = self.brief_bio
         if bio
+          @current_query = "brief bio graph"
           graph << [wikidata_subject, SCHEMA_DESCRIPTION, bio["description"]["value"]] if bio["description"]
           if bio["workLocation"]
             work_loc_uri = RDF::URI.new(bio["workLocation"]["value"])
@@ -294,15 +306,17 @@ module BibCard
         end
       
         self.notable_works.each do |work|
+          @current_query = "notable works graph"
           work_uri = RDF::URI.new(work["notableWork"]["value"])
           graph << [wikidata_subject, WDT_NOTABLE_WORKS, work_uri]
           graph << [work_uri, RDF::RDFS.label, work["notableWorkLabel"]["value"]]
           graph << [work_uri, WDT_ISBN, work["isbn"]["value"]] if work["isbn"]
           graph << [work_uri, WDT_OCLC_NUMBER, work["oclcNumber"]["value"]] if work["oclcNumber"]
         end
-      rescue RestClient::RequestTimeout, Errno::EACCES => e
-        BibCard.logger.warn "WikiData failed to respond. SPARQL request timed out after 5 seconds."
-        BibCard.logger.warn e.message
+      rescue RestClient::RequestTimeout
+        BibCard.logger.warn "WikiData failed to respond. SPARQL query request timed out after 5 seconds for #{@current_query}."
+      rescue Exception => e
+        BibCard.logger.warn "WikiData failed to respond. SPARQL query request for #{@current_query}. Error: #{e.message}"
       end
       graph
     end
