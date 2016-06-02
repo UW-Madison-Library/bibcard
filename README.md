@@ -1,11 +1,15 @@
 # BibCard
 
-BibCard is a Ruby library for retrieving and assembling knowledge card information about the authors found in bibliographic data. It takes identifiers like Library of Congress Name Authority File (LCNAF) IDs or VIAF URIs as input and crawls Linked Open Data sources on the web to assemble a Ruby objects or RDF serializations. This library will fetch data from:
+BibCard is a Ruby library for retrieving and assembling knowledge card information about the authors found in bibliographic data. It takes identifiers like Library of Congress Name Authority File (LCNAF) or VIAF URIs as input and crawls Linked Open Data sources on the web to assemble a Ruby objects or RDF serializations. This library will fetch data from:
 
 * [Virtual International Authority File (VIAF)](http://viaf.org/)
 * [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)
 * [DBpedia](http://wiki.dbpedia.org/)
 * [Getty Vocabularies LOD](http://vocab.getty.edu/)
+
+The VIAF URI lies at the core of the `BibCard::Person` object because it acts as a hub to many other data sources on the Web. With the VIAF data in hand the other three sources listed above are "crawled" for more information about a given identity. Technically the data is requested by making one or more HTTP requests to each of the data sources' public SPARQL endpoints.
+
+`BibCard` makes extensive use of the (Spira)[https://github.com/ruby-rdf/spira] library for RDF-to-object mapping. The result is that after assembling a micrograph of knowledge card data the client can work with simple code objects.
 
 ## Installation
 
