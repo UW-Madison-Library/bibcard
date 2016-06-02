@@ -1,6 +1,8 @@
 module BibCard
   class Crawler
     
+    # TODO: ActiveSupport logging/instrumentation. See Hathi example
+    
     def initialize(uri, repository)
       @subject = RDF::URI.new(uri)
       @repository = repository
@@ -64,11 +66,22 @@ module BibCard
         graph << [@subject, SCHEMA_SAME_AS, self.dbpedia_uri] if self.dbpedia_uri
         graph << [@subject, SCHEMA_SAME_AS, self.getty_uri] if self.getty_uri
         graph << [@subject, SCHEMA_SAME_AS, self.wikidata_uri] if self.wikidata_uri
-        graph << profile_graph if self.dbpedia_uri
-        graph << influence_graph if self.dbpedia_uri
-        graph << film_graph if self.dbpedia_uri
+        graph << dbpedia_graph if self.dbpedia_uri
         graph << getty_note_graph if self.getty_uri
         graph << wikidata_graph if self.wikidata_uri
+      end
+      graph
+    end
+    
+    def dbpedia_graph
+      graph = RDF::Graph.new
+      begin
+        graph << profile_graph
+        graph << influence_graph
+        graph << film_graph
+      rescue RestClient::RequestTimeout, Errno::EACCES => e
+        BibCard.logger.warn "DBPedia failed to respond. SPARQL request timed out after 5 seconds."
+        BibCard.logger.warn e.message
       end
       graph
     end
@@ -287,8 +300,9 @@ module BibCard
           graph << [work_uri, WDT_ISBN, work["isbn"]["value"]] if work["isbn"]
           graph << [work_uri, WDT_OCLC_NUMBER, work["oclcNumber"]["value"]] if work["oclcNumber"]
         end
-      rescue RestClient::RequestTimeout
-        # log message "WARNING: WikiData failed to respond. SPARQL request timed out after 5 seconds."
+      rescue RestClient::RequestTimeout, Errno::EACCES => e
+        BibCard.logger.warn "WikiData failed to respond. SPARQL request timed out after 5 seconds."
+        BibCard.logger.warn e.message
       end
       graph
     end
