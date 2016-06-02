@@ -43,7 +43,7 @@ person.getty_subject.scope_note                                           # => <
 person.getty_subject.scope_note.value                                     # => "Long-lived and very influential Spanish artist, active in France. He dominated 20th-century European art. With Georges Braque, he is credited with inventing Cubism."
 person.getty_subject.scope_note.sources                                   # => [<BibCard::Getty::Source:70307327167300 @subject: http://vocab.getty.edu/ulan/source/2100153925>, <BibCard::Getty::Source:70307327106100 @subject: http://vocab.getty.edu/ulan/source/2100156698>]
 person.getty_subject.scope_note.sources.map {|source| source.short_title} # => ["LCNAF Library of Congress Name Authority File  [n.d.]", "Grove Dictionary of Art online (1999-2002)"]
-````
+```
 
 ## Development
 
