@@ -53,6 +53,8 @@ person.getty_subject.scope_note.sources.map {|source| source.short_title} # => [
 
 ### Fetch Raw Data for a `BibCard::Person`
 
+A BibCard knowledge/info card is generated from many different sources, which is inherently slow. You can also retrieve person data as a serialized string of RDF n-triples. The raw data is available so that it can be cached locally. Once the data is cached you can load a [Spira](https://github.com/ruby-rdf/spira) repository and instantiate a `BibCard::Person` object.
+
 ```ruby
 require 'bib_card'
 
@@ -65,11 +67,13 @@ puts data
 # <http://viaf.org/viaf/15873> <http://schema.org/sameAs> <http://id.loc.gov/authorities/names/n78086005> .
 # ...
 
-#### cache the data blob ####
+#### cache the serialized data ####
 
 Spira.repository = RDF::Repository.new.from_ntriples(data)
-viaf_uri = Spira.repository.query(predicate: BibCard::SCHEMA_SAME_AS, object: lcnaf_uri).first.subject
-person = viaf_uri.as(BibCard::Person)
+viaf_uri         = Spira.repository.query(predicate: BibCard::SCHEMA_SAME_AS, object: RDF::URI.new(lcnaf_uri)).first.subject
+person           = viaf_uri.as(BibCard::Person)
+
+person              # => <BibCard::Person:70307327106900 @subject: http://viaf.org/viaf/15873>
 person.english_name # => "Pablo Picasso"
 ```
 
