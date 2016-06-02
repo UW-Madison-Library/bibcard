@@ -28,8 +28,21 @@ Or install it yourself as:
 ```ruby
 require 'bib_card'
 
-lcnaf_id = "n78086005"
-person = BibCard
+lcnaf_uri = "http://id.loc.gov/authorities/names/n78086005"
+person = BibCard.person(lcnaf_uri)
+
+person.english_name # => "Pablo Picasso"
+person.birth_date   # => "1881-10-25"
+person.death_date   # => "1973-04-09"
+
+person.dbpedia_resource          # => <BibCard::DBPedia::Resource:70307318111440 @subject: http://dbpedia.org/resource/Pablo_Picasso>
+person.dbpedia_resource.abstract # => "Pablo Ruiz y Picasso, also known as Pablo Picasso (/pɪˈkɑːsoʊ, -ˈkæsoʊ/; Spanish: [ˈpaβlo piˈkaso]; 25 October 1881 – 8 April 1973), was a Spanish painter..."
+
+person.getty_subject                                                      # => <BibCard::Getty::Subject:70307331508400 @subject: http://vocab.getty.edu/ulan/500009666>
+person.getty_subject.scope_note                                           # => <BibCard::Getty::ScopeNote:70307331409520 @subject: http://vocab.getty.edu/ulan/scopeNote/53649>
+person.getty_subject.scope_note.value                                     # => "Long-lived and very influential Spanish artist, active in France. He dominated 20th-century European art. With Georges Braque, he is credited with inventing Cubism."
+person.getty_subject.scope_note.sources                                   # => [<BibCard::Getty::Source:70307327167300 @subject: http://vocab.getty.edu/ulan/source/2100153925>, <BibCard::Getty::Source:70307327106100 @subject: http://vocab.getty.edu/ulan/source/2100156698>]
+person.getty_subject.scope_note.sources.map {|source| source.short_title} # => ["LCNAF Library of Congress Name Authority File  [n.d.]", "Grove Dictionary of Art online (1999-2002)"]
 ````
 
 ## Development
