@@ -25,6 +25,12 @@ Or install it yourself as:
 
 ## Usage
 
+### Instantiate a `BibCard::Person`
+
+Given a Library of Congress Name Authority File or VIAF URI, instantiate a `BibCard::Person` and inspect the data.
+
+*Note:* Every call to to `BibCard.person()` will make many calls to the public SPARQL endpoints for the sources cited above.
+
 ```ruby
 require 'bib_card'
 
@@ -43,6 +49,28 @@ person.getty_subject.scope_note                                           # => <
 person.getty_subject.scope_note.value                                     # => "Long-lived and very influential Spanish artist, active in France. He dominated 20th-century European art. With Georges Braque, he is credited with inventing Cubism."
 person.getty_subject.scope_note.sources                                   # => [<BibCard::Getty::Source:70307327167300 @subject: http://vocab.getty.edu/ulan/source/2100153925>, <BibCard::Getty::Source:70307327106100 @subject: http://vocab.getty.edu/ulan/source/2100156698>]
 person.getty_subject.scope_note.sources.map {|source| source.short_title} # => ["LCNAF Library of Congress Name Authority File  [n.d.]", "Grove Dictionary of Art online (1999-2002)"]
+```
+
+### Fetch Raw Data for a `BibCard::Person`
+
+```ruby
+require 'bib_card'
+
+lcnaf_uri = "http://id.loc.gov/authorities/names/n78086005"
+data = BibCard.person_data(lcnaf_uri)
+puts data
+
+# <http://viaf.org/viaf/15873> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> .
+# <http://viaf.org/viaf/15873> <http://schema.org/deathDate> "1973-04-09" .
+# <http://viaf.org/viaf/15873> <http://schema.org/sameAs> <http://id.loc.gov/authorities/names/n78086005> .
+# ...
+
+#### cache the data blob ####
+
+Spira.repository = RDF::Repository.new.from_ntriples(data)
+viaf_uri = Spira.repository.query(predicate: BibCard::SCHEMA_SAME_AS, object: lcnaf_uri).first.subject
+person = viaf_uri.as(BibCard::Person)
+person.english_name # => "Pablo Picasso"
 ```
 
 ## Development
