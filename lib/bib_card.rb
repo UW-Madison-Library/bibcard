@@ -9,6 +9,8 @@ require "bib_card/uris"
 require "bib_card/author"
 require "bib_card/person"
 require "bib_card/crawler"
+require "bib_card/invalid_uri_exception"
+require "bib_card/entity_not_found_exception"
 require "bib_card/db_pedia/resource"
 require "bib_card/getty/scope_note"
 require "bib_card/getty/source"
@@ -57,16 +59,22 @@ module BibCard
       uri = convert_uri(uri)
     
       # 1. Get the VIAF data and determine the VIAF URI
-      if lcnaf_uri?(uri)
-        # Load the VIAF data graph and determine the VIAF URI based on the LCNAF URI.
-        identifier = lcnaf_uri_to_identifier(uri)
-        viaf_url   = URI.encode("http://viaf.org/viaf/sourceID/LC|#{identifier}")
-        viaf_graph = RDF::Graph.load(viaf_url, format: :rdfxml)
-        viaf_uri   = viaf_graph.query(predicate: SCHEMA_SAME_AS, object: uri).first.subject
-      elsif viaf_uri?(uri)
-        # Load the VIAF data graph using the URI
-        viaf_uri   = uri
-        viaf_graph = RDF::Graph.load(uri, format: :rdfxml)
+      begin
+        if lcnaf_uri?(uri)
+          # Load the VIAF data graph and determine the VIAF URI based on the LCNAF URI.
+          identifier = lcnaf_uri_to_identifier(uri)
+          viaf_url   = URI.encode("http://viaf.org/viaf/sourceID/LC|#{identifier}")
+          viaf_graph = RDF::Graph.load(viaf_url, format: :rdfxml)
+          viaf_uri   = viaf_graph.query(predicate: SCHEMA_SAME_AS, object: uri).first.subject
+        elsif viaf_uri?(uri)
+          # Load the VIAF data graph using the URI
+          viaf_uri   = uri
+          viaf_graph = RDF::Graph.load(uri, format: :rdfxml)
+        else
+          raise BibCard::InvalidURIException
+        end
+      rescue IOError
+        raise BibCard::EntityNotFoundException
       end
     
       # 2. Crawl and use it as a basis for crawling the other data sources 

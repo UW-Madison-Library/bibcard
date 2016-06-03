@@ -99,4 +99,41 @@ describe BibCard do
       end
     end
   end
+  
+  context "when encountering bad URIs for instantiation" do
+    before(:all) do
+      @unknown_uri_msg = "Invalid URI. BibCard requires a valid VIAF or LCNAF URI."
+      @entity_not_found_msg = "Entity not found."
+    end
+    
+    it "detects an incomplete VIAF URI" do
+      uri = "http://viaf.org/viaf/"
+      expect { BibCard.person(uri) }.to raise_error(BibCard::InvalidURIException, @unknown_uri_msg)
+      expect { BibCard.person_data(uri) }.to raise_error(BibCard::InvalidURIException, @unknown_uri_msg)
+    end
+    
+    it "detects an incomplete LCNAF URI" do
+      uri = "http://id.loc.gov/authorities/names/"
+      expect { BibCard.person(uri) }.to raise_error(BibCard::InvalidURIException, @unknown_uri_msg)
+      expect { BibCard.person_data(uri) }.to raise_error(BibCard::InvalidURIException, @unknown_uri_msg)
+    end
+    
+    it "detects a random URI" do
+      uri = "http://library.wisc.edu"
+      expect { BibCard.person(uri) }.to raise_error(BibCard::InvalidURIException, @unknown_uri_msg)
+      expect { BibCard.person_data(uri) }.to raise_error(BibCard::InvalidURIException, @unknown_uri_msg)
+    end
+    
+    it "detects a VIAF URI for an entity that doesn't exist" do
+      uri = "http://viaf.org/viaf/12345678901234567890"
+      stub_request(:get, uri).to_return(status: 404)
+      expect { BibCard.person(uri) }.to raise_error(BibCard::EntityNotFoundException, @entity_not_found_msg)
+    end
+    
+    it "detects a LCNAF URI for an entity that doesn't exist" do
+      uri = "http://id.loc.gov/authorities/names/no1234567890123456789"
+      stub_request(:get, "http://viaf.org/viaf/sourceID/LC%7Cno1234567890123456789").to_return(status: 404)
+      expect { BibCard.person(uri) }.to raise_error(BibCard::EntityNotFoundException, @entity_not_found_msg)
+    end
+  end
 end
