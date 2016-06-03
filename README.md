@@ -41,7 +41,7 @@ require 'bib_card'
 lcnaf_uri = "http://id.loc.gov/authorities/names/n78086005"
 person = BibCard.person(lcnaf_uri)
 
-person.english_name # => "Pablo Picasso"
+person.name(["en", "en-US"]) # => "Pablo Picasso"
 person.birth_date   # => "1881-10-25"
 person.death_date   # => "1973-04-09"
 
@@ -78,7 +78,7 @@ viaf_uri         = Spira.repository.query(predicate: BibCard::SCHEMA_SAME_AS, ob
 person           = viaf_uri.as(BibCard::Person)
 
 person              # => <BibCard::Person:70307327106900 @subject: http://viaf.org/viaf/15873>
-person.english_name # => "Pablo Picasso"
+person.name(["en", "en-US"]) # => "Pablo Picasso"
 ```
 
 ## Development
