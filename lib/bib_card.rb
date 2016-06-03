@@ -49,7 +49,7 @@ module BibCard
   
     def lcnaf_uri?(uri)
       url = uri.to_s
-      url.match(/^http:\/\/id\.loc\.gov\/authorities\/names\/n[or]{0,1}\d+$/).nil? ? false : true
+      url.match(/^http:\/\/id\.loc\.gov\/authorities\/names\/n[bors]{0,1}\d+$/).nil? ? false : true
     end
   
     private
