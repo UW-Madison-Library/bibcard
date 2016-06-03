@@ -1,5 +1,5 @@
 describe BibCard::Person do 
-  context "a person loaded by name authority from a combination of VIAF URL/LC URI" do
+  context "a person loaded by URI" do
     before(:all) do
       @person = person("stein")
     end
@@ -20,8 +20,8 @@ describe BibCard::Person do
       expect(@person.types).to include(RDF::URI.new("http://schema.org/Person"))
     end
     
-    it "has a English name" do
-      expect(@person.english_name).to eq("Gertrude Stein")
+    it "has an English name" do
+      expect(@person.name(["en-US", "en"])).to eq("Gertrude Stein")
     end
     
     it "has a birth date" do

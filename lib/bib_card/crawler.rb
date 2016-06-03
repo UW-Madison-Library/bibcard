@@ -12,17 +12,6 @@ module BibCard
       dbpedia: "http://dbpedia.org/sparql?query="
     }
 
-    def name
-      english_names = @repository.query(subject: @subject, predicate: SCHEMA_NAME).select do |stmt|
-        stmt.object.language.to_s == "en-US" or stmt.object.language.to_s.start_with?("en")
-      end
-      if english_names.first
-        english_names.first.object 
-      else
-        @repository.query(subject: @subject, predicate: SCHEMA_NAME).first.object
-      end
-    end
-    
     def birth_date
       stmt = @repository.query(subject: @subject, predicate: SCHEMA_BIRTHDATE).first
       stmt.nil? ? nil : stmt.object
@@ -57,7 +46,7 @@ module BibCard
       graph = RDF::Graph.new
       if @repository.size > 0
         @repository.query(subject: @subject, predicate: RDF.type).each {|stmt| graph << stmt}
-        graph << [@subject, SCHEMA_NAME, self.name]
+        @repository.query(subject: @subject, predicate: SCHEMA_NAME).each {|stmt| graph << stmt}
         graph << [@subject, SCHEMA_BIRTHDATE, self.birth_date] if self.birth_date
         graph << [@subject, SCHEMA_DEATHDATE, self.death_date] if self.death_date
         graph << [@subject, SCHEMA_SAME_AS, self.loc_uri] if self.loc_uri

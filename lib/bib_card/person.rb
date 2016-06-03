@@ -9,6 +9,18 @@ module BibCard
       self.subject
     end
     
+    def name(preferred_languages = nil)
+      if preferred_languages
+        Spira.repository.query(subject: @subject, predicate: SCHEMA_NAME).reduce(Array.new) do |matches, stmt|
+          language = stmt.object.language.to_s
+          matches << stmt if preferred_languages.include?(language)
+          matches
+        end.first.object.to_s
+      else
+        Spira.repository.query(subject: @subject, predicate: SCHEMA_NAME).first.object.to_s
+      end
+    end
+    
     def english_name
       english_value(SCHEMA_NAME).to_s
     end
