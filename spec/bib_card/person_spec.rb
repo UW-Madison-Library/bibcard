@@ -20,8 +20,16 @@ describe BibCard::Person do
       expect(@person.types).to include(RDF::URI.new("http://schema.org/Person"))
     end
     
+    it "has a name" do
+      expect(@person.name).to be_a(String)
+    end
+    
     it "has an English name" do
-      expect(@person.name(["en-US", "en"])).to eq("Gertrude Stein")
+      expect(@person.name(["en-us", "en"])).to eq("Gertrude Stein")
+    end
+    
+    it "gracefully handles a name for a language with no matches" do
+      expect(@person.name(["xx-zz"])).to be_nil
     end
     
     it "has a birth date" do

@@ -11,18 +11,15 @@ module BibCard
     
     def name(preferred_languages = nil)
       if preferred_languages
-        Spira.repository.query(subject: @subject, predicate: SCHEMA_NAME).reduce(Array.new) do |matches, stmt|
+        matches = Spira.repository.query(subject: @subject, predicate: SCHEMA_NAME).reduce(Array.new) do |matches, stmt|
           language = stmt.object.language.to_s
           matches << stmt if preferred_languages.include?(language)
           matches
-        end.first.object.to_s
+        end
       else
-        Spira.repository.query(subject: @subject, predicate: SCHEMA_NAME).first.object.to_s
+        matches = Spira.repository.query(subject: @subject, predicate: SCHEMA_NAME)
       end
-    end
-    
-    def english_name
-      english_value(SCHEMA_NAME).to_s
+      matches.first.nil? ? nil : matches.first.object.to_s
     end
     
     def loc_uri
@@ -62,17 +59,6 @@ module BibCard
     
     def related_entity_by_uri_prefix(domain)
       Spira.repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match(domain)}.first
-    end
-    
-    def english_value(predicate)
-      english_names = Spira.repository.query(subject: @subject, predicate: predicate).select do |stmt|
-        stmt.object.language.to_s == "en-US" or stmt.object.language.to_s.start_with?("en")
-      end
-      if english_names.first
-        english_names.first.object 
-      else
-        Spira.repository.query(subject: @subject, predicate: predicate).first.object
-      end
     end
     
   end
