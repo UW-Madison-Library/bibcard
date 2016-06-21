@@ -11,6 +11,7 @@ require "bib_card/person"
 require "bib_card/crawler"
 require "bib_card/invalid_uri_exception"
 require "bib_card/entity_not_found_exception"
+require "bib_card/crawl_exception"
 require "bib_card/db_pedia/resource"
 require "bib_card/getty/scope_note"
 require "bib_card/getty/source"
@@ -75,6 +76,8 @@ module BibCard
         end
       rescue IOError
         raise BibCard::EntityNotFoundException
+      rescue Errno::ECONNRESET
+        raise BibCard::CrawlException.new("Unable to access VIAF, connection reset by peer.")
       end
     
       # 2. Crawl and use it as a basis for crawling the other data sources 
