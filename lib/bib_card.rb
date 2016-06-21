@@ -1,6 +1,7 @@
 require "openssl"
 require "rdf"
 require "rdf/rdfxml"
+require "rdf/xsd"
 require "spira"
 require "rest-client"
 
