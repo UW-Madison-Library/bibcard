@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
   spec.email         = ["stephen.meyer@wisc.edu"]
 
   spec.summary       = %q{Library Linked Data for building knowledge cards.}
-  spec.description   = %q{Given a URI for a bibliographic entity, assemble useful information for producing a knowledge card.}
-  spec.homepage      = "https://bitbucket.org/uw-madison-library/bibcard"
+  spec.description   = %q{Given a URI for a bibliographic author entity, assemble useful information for producing a knowledge card.}
+  spec.homepage      = "https://github.com/UW-Madison-Library/bibcard.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
