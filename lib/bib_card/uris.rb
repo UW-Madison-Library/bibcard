@@ -2,6 +2,7 @@ module BibCard
   # SHOULD BE LOADED VIA RDF::Vocab, but not working
   FOAF_GIVEN_NAME     = RDF::URI.new('http://xmlns.com/foaf/0.1/givenName')
   FOAF_SURNAME        = RDF::URI.new('http://xmlns.com/foaf/0.1/surname')
+  FOAF_DEPICTION      = RDF::URI.new('http://xmlns.com/foaf/0.1/depiction')
   SKOS_SCOPE_NOTE     = RDF::URI.new('http://www.w3.org/2004/02/skos/core#scopeNote')
   DC_SOURCE           = RDF::URI.new('http://purl.org/dc/terms/source')
   DC_IS_PART_OF       = RDF::URI.new('http://purl.org/dc/terms/isPartOf')
@@ -33,6 +34,7 @@ module BibCard
   DBO_INFLUENCED      = RDF::URI.new('http://dbpedia.org/ontology/influenced')
   DBO_STARRING        = RDF::URI.new('http://dbpedia.org/ontology/starring')
   DBO_ABSTRACT        = RDF::URI.new('http://dbpedia.org/ontology/abstract')
+  DBO_THUMBNAIL       = RDF::URI.new('http://dbpedia.org/ontology/thumbnail')
   DBP_FOUNDED         = RDF::URI.new('http://dbpedia.org/ontology/foundedDate')
   DBP_LOCATION        = RDF::URI.new('http://dbpedia.org/ontology/location')
 
