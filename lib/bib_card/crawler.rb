@@ -179,11 +179,13 @@ module BibCard
       sparql = "
       #{self.dbpedia_sparql_prefixes}
       
-      SELECT ?abstract ?foundedDate ?location
+      SELECT ?abstract ?foundedDate ?location ?thumbnail ?depiction
       WHERE {
         OPTIONAL { <#{self.dbpedia_uri}> dbo:abstract ?abstract . }
         OPTIONAL {<#{self.dbpedia_uri}> dbp:location ?location . }
         OPTIONAL { <#{self.dbpedia_uri}> dbp:foundedDate ?foundedDate . }
+        OPTIONAL { <#{self.dbpedia_uri}> dbo:thumbnail ?thumbnail . }
+        OPTIONAL { <#{self.dbpedia_uri}> foaf:depiction ?depiction . }
         FILTER(langMatches(lang(?abstract), \"en\"))
       }
       "
