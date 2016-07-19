@@ -1,3 +1,35 @@
-{ "head": { "link": [], "vars": ["abstract", "foundedDate", "location"] },
-  "results": { "distinct": false, "ordered": true, "bindings": [
-    { "abstract": { "type": "literal", "xml:lang": "en", "value": "Michael Pollan (born February 6, 1955) is an American author, journalist, activist, and professor of journalism at the UC Berkeley Graduate School of Journalism." }} ] } }
+{
+    "head":{
+        "link":[
+
+        ],
+        "vars":[
+            "abstract",
+            "foundedDate",
+            "location",
+            "thumbnail",
+            "depiction"
+        ]
+    },
+    "results":{
+        "distinct":false,
+        "ordered":true,
+        "bindings":[
+            {
+                "abstract":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":"Michael Pollan (born February 6, 1955) is an American author, journalist, activist, and professor of journalism at the UC Berkeley Graduate School of Journalism."
+                },
+                "thumbnail":{
+                    "type":"uri",
+                    "value":"http://commons.wikimedia.org/wiki/Special:FilePath/Michael_Pollan_at_Yale_1_cropped.jpg?width=300"
+                },
+                "depiction":{
+                    "type":"uri",
+                    "value":"http://commons.wikimedia.org/wiki/Special:FilePath/Michael_Pollan_at_Yale_1_cropped.jpg"
+                }
+            }
+        ]
+    }
+}

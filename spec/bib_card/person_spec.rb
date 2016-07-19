@@ -60,6 +60,14 @@ describe BibCard::Person do
       abstract = "Gertrude Stein (February 3, 1874 \u2013 July 27, 1946) was an American writer of novels, poetry and plays. Born in the Allegheny West neighborhood of Pittsburgh, Pennsylvania, and raised in Oakland, California, Stein moved to Paris in 1903, making France her home for the remainder of her life. A literary innovator and pioneer of Modernist literature, Stein\u2019s work broke with the narrative, linear, and temporal conventions of the 19th-century. She was also known as a collector of Modernist art.In 1933, Stein published a kind of memoir of her Paris years, The Autobiography of Alice B. Toklas, written in the voice of Toklas, her life partner. The book became a literary bestseller and vaulted Stein from the relative obscurity of cult literary figure into the light of mainstream attention."
       expect(@person.dbpedia_resource.abstract).to eq(abstract)
     end
+    
+    it "has a thumbnail" do
+      expect(@person.dbpedia_resource.thumbnail).to eq("http://commons.wikimedia.org/wiki/Special:FilePath/Gertrude_Stein_1935-01-04.jpg?width=300")
+    end
+    
+    it "has a depiction" do
+      expect(@person.dbpedia_resource.depiction).to eq("http://commons.wikimedia.org/wiki/Special:FilePath/Gertrude_Stein_1935-01-04.jpg")
+    end
   end
   
   context "a person with an influence network" do

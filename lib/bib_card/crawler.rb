@@ -119,6 +119,8 @@ module BibCard
         graph << [dbpedia_subject, DBO_ABSTRACT, profile["abstract"]["value"]] if profile["abstract"]
         graph << [dbpedia_subject, DBP_FOUNDED, profile["foundedDate"]["value"]] if profile["foundedDate"]
         graph << [dbpedia_subject, DBP_LOCATION, profile["location"]["value"]] if profile["location"]
+        graph << [dbpedia_subject, DBO_THUMBNAIL, profile["thumbnail"]["value"]] if profile["thumbnail"]
+        graph << [dbpedia_subject, FOAF_DEPICTION, profile["depiction"]["value"]] if profile["depiction"]
       end
       graph
     end

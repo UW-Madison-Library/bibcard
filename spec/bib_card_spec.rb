@@ -58,7 +58,7 @@ describe BibCard do
       
       it "returns RDF triples when the URI is a String that can be parsed" do
         parsed_triples = read_ntriples(@data_from_string)
-        expect(parsed_triples.size).to eq(228)
+        expect(parsed_triples.size).to eq(230)
       end
 
       it "returns RDF triples when the URI is an RDF::URI" do
@@ -67,7 +67,7 @@ describe BibCard do
 
       it "returns RDF triples when the URI is an RDF::URI that can be parsed" do
         parsed_triples = read_ntriples(@data_from_uri)
-        expect(parsed_triples.size).to eq(228)
+        expect(parsed_triples.size).to eq(230)
       end
     end
 
@@ -96,7 +96,7 @@ describe BibCard do
       
       it "returns RDF triples when the URI is a String that can be parsed" do
         parsed_triples = read_ntriples(@data_from_string)
-        expect(parsed_triples.size).to eq(228)
+        expect(parsed_triples.size).to eq(230)
       end
 
       it "returns RDF triples when the URI is an RDF::URI" do
@@ -105,7 +105,7 @@ describe BibCard do
 
       it "returns RDF triples when the URI is an RDF::URI that can be parsed" do
         parsed_triples = read_ntriples(@data_from_uri)
-        expect(parsed_triples.size).to eq(228)
+        expect(parsed_triples.size).to eq(230)
       end
     end
   end

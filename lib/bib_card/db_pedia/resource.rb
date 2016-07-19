@@ -10,9 +10,11 @@ module BibCard
       property :abstract, predicate: BibCard::DBO_ABSTRACT, type: XSD.string
       property :founded, predicate: DBP_FOUNDED, type: XSD.string
       property :location, predicate: DBP_LOCATION, type: XSD.string
+      property :thumbnail, predicate: DBO_THUMBNAIL, type: RDF::URI
+      property :depiction, predicate: FOAF_DEPICTION, type: RDF::URI
       has_many :influences, predicate: DBO_INFLUENCED_BY, type: 'DBPedia::Resource'
       has_many :influencees, predicate: DBO_INFLUENCED, type: 'DBPedia::Resource'
-    
+      
       def name
         if self.given_name and self.surname
           self.given_name + ' ' + self.surname
