@@ -6,7 +6,7 @@ module BibCard
   SKOS_SCOPE_NOTE     = RDF::URI.new('http://www.w3.org/2004/02/skos/core#scopeNote')
   DC_SOURCE           = RDF::URI.new('http://purl.org/dc/terms/source')
   DC_IS_PART_OF       = RDF::URI.new('http://purl.org/dc/terms/isPartOf')
-
+  RDFS_COMMENT        = RDF::URI.new('http://www.w3.org/2000/01/rdf-schema#comment')
   SCHEMA_PERSON       = RDF::URI.new('http://schema.org/Person')
   SCHEMA_ORGANIZATION = RDF::URI.new('http://schema.org/Organization')
   SCHEMA_SAME_AS      = RDF::URI.new('http://schema.org/sameAs')

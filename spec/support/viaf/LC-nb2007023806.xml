@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:pto="http://www.productontology.org/id/" xmlns:schema="http://schema.org/" xmlns:genont="http://www.w3.org/2006/gen/ont#" xmlns:re="http://oclcsrw.google.code/redirect" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bgn="http://bibliograph.net/" xmlns:umbel="http://umbel.org/umbel#">
+    <rdf:Description rdf:about="http://viaf.org/viaf/305028394/">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+        <rdf:type rdf:resource="http://www.w3.org/2006/gen/ont#InformationResource"/>
+        <void:inDataset xmlns:void="http://rdfs.org/ns/void#" rdf:resource="http://viaf.org/viaf/data"/>
+        <foaf:primaryTopic xmlns:foaf="http://xmlns.com/foaf/0.1/" rdf:resource="http://viaf.org/viaf/305028394"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/305028394">
+        <dcterms:identifier xmlns:dcterms="http://purl.org/dc/terms/">305028394</dcterms:identifier>
+        <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1387388"/>
+        <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">This VIAF URI has been corrupted by an 'undifferentiate name' and should be treated as unusable.</rdfs:comment>
+        <owl:differentFrom xmlns:owl="http://www.w3.org/2002/07/owl#">
+            <rdf:Description rdf:about="http://id.loc.gov/authorities/names/nb2007023806">
+                <rdfs:comment xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">Apparently, this URI identifies an 'undifferentiated name', not a stable real entity</rdfs:comment>
+            </rdf:Description>
+        </owl:differentFrom>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://viaf.org/viaf/sourceID/LC%7Cnb2007023806#skos:Concept">
+        <rdf:type rdf:resource="http://www.wikidata.org/entity/Q1387388"/>
+        <skos:inScheme xmlns:skos="http://www.w3.org/2004/02/skos/core#" rdf:resource="http://viaf.org/authorityScheme/LC"/>
+        <skos:prefLabel xmlns:skos="http://www.w3.org/2004/02/skos/core#">Newton, James</skos:prefLabel>
+        <owl:differentFrom xmlns:owl="http://www.w3.org/2002/07/owl#" rdf:resource="http://viaf.org/viaf/305028394"/>
+    </rdf:Description>
+</rdf:RDF>

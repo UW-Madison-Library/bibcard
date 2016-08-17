@@ -79,6 +79,14 @@ module BibCard
         raise BibCard::EntityNotFoundException
       rescue Errno::ECONNRESET
         raise BibCard::CrawlException.new("Unable to access VIAF, connection reset by peer.")
+      rescue NoMethodError => e
+        undifferentiated_uri_msg = "This VIAF URI has been corrupted by an 'undifferentiate name' and should be treated as unusable."
+        results = viaf_graph.query(predicate: RDFS_COMMENT, object: undifferentiated_uri_msg)
+        if results.size > 0
+          raise BibCard::EntityNotFoundException.new(undifferentiated_uri_msg)
+        else
+          raise e
+        end
       end
     
       # 2. Crawl and use it as a basis for crawling the other data sources 

@@ -112,6 +112,7 @@ describe BibCard do
   
   context "when encountering bad URIs for instantiation" do
     before(:all) do
+      @config = sparql_config
       @unknown_uri_msg = "Invalid URI. BibCard requires a valid VIAF or LCNAF URI."
       @entity_not_found_msg = "Entity not found."
     end
@@ -144,6 +145,13 @@ describe BibCard do
       uri = "http://id.loc.gov/authorities/names/no1234567890123456789"
       stub_request(:get, "http://viaf.org/viaf/sourceID/LC%7Cno1234567890123456789").to_return(status: 404)
       expect { BibCard.person(uri) }.to raise_error(BibCard::EntityNotFoundException, @entity_not_found_msg)
+    end
+    
+    it "detects an undifferentiated URI in VIAF" do
+      stub_request(:get, @config["newton"]["viaf_lcnaf_url"]).to_return(body: body_content("viaf/LC-#{@config["newton"]["lcnaf_id"]}.xml"), :status => 200)
+      uri = "http://id.loc.gov/authorities/names/#{@config["newton"]["lcnaf_id"]}"
+      undifferentiated_uri_msg = "This VIAF URI has been corrupted by an 'undifferentiate name' and should be treated as unusable."
+      expect { BibCard.person(uri) }.to raise_error(BibCard::EntityNotFoundException, undifferentiated_uri_msg)
     end
   end
 end

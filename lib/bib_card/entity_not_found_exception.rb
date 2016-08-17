@@ -3,8 +3,8 @@ module BibCard
 
     MESSAGE = 'Entity not found.'
 
-    def initialize
-      super MESSAGE
+    def initialize(custom_msg = nil)
+      custom_msg.nil? ? super(MESSAGE) : super(custom_msg)
     end
 
   end
