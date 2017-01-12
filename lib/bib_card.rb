@@ -4,6 +4,7 @@ require "rdf/rdfxml"
 require "rdf/xsd"
 require "spira"
 require "rest-client"
+require "json"
 
 require "bib_card/version"
 require "bib_card/uris"
