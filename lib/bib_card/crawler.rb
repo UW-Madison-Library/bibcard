@@ -2,7 +2,7 @@ module BibCard
   class Crawler
     
     def initialize(uri, repository)
-      @subject = RDF::URI.new(uri)
+      @subject = RDF::URI(uri)
       @repository = repository
     end
   
