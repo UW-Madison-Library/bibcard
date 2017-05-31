@@ -1,9 +1,9 @@
 module BibCard
   module DBPedia
     class Resource < Spira::Base
-    
+
       configure base_uri: "http://dbpedia.org/resource/"
-    
+
       property :given_name, predicate: FOAF_GIVEN_NAME, type: XSD.string
       property :surname, predicate: FOAF_SURNAME, type: XSD.string
       property :rdfs_label, predicate: RDF::RDFS.label, type: XSD.string
@@ -14,7 +14,7 @@ module BibCard
       property :depiction, predicate: FOAF_DEPICTION, type: RDF::URI
       has_many :influences, predicate: DBO_INFLUENCED_BY, type: 'DBPedia::Resource'
       has_many :influencees, predicate: DBO_INFLUENCED, type: 'DBPedia::Resource'
-      
+
       def name
         if self.given_name and self.surname
           self.given_name + ' ' + self.surname
@@ -22,13 +22,13 @@ module BibCard
           self.rdfs_label
         end
       end
-    
+
       def film_appearances
         Spira.repository.query(predicate: DBO_STARRING, object: self.subject).map do |film|
           film.subject.as(DBPedia::Resource)
         end
       end
-    
+
     end
   end
 end

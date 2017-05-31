@@ -32,6 +32,11 @@
                 "influenceSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/44313522"
+                },
+                "influenceLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":"Stanley William Hayter"
                 }
             },
             {
@@ -39,19 +44,14 @@
                     "type":"uri",
                     "value":"http://dbpedia.org/resource/Paul_C\u00E9zanne"
                 },
-                "influenceGivenName":{
-                    "type":"literal",
-                    "xml:lang":"en",
-                    "value":"Paul"
-                },
-                "influenceSurname":{
-                    "type":"literal",
-                    "xml:lang":"en",
-                    "value":"Cezanne"
-                },
                 "influenceSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/39374836"
+                },
+                "influenceLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":"Paul Cezanne"
                 }
             }
         ]

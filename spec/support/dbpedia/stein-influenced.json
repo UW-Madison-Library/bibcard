@@ -32,6 +32,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/23311550"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -52,6 +57,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/22263700"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -72,6 +82,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/17253973"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -92,6 +107,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/39372890"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -112,6 +132,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/93303045"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -132,6 +157,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/9882077"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -152,6 +182,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/24723316"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -172,6 +207,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/111189444"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -192,6 +232,11 @@
                 "influencedSameAs":{
                     "type":"uri",
                     "value":"http://viaf.org/viaf/96611401"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -208,6 +253,11 @@
                     "type":"literal",
                     "xml:lang":"en",
                     "value":"Brakhage"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -224,6 +274,11 @@
                     "type":"literal",
                     "xml:lang":"en",
                     "value":"Stevens"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -240,6 +295,11 @@
                     "type":"literal",
                     "xml:lang":"en",
                     "value":"Firrell"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -256,6 +316,11 @@
                     "type":"literal",
                     "xml:lang":"en",
                     "value":"Fericano"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -272,6 +337,11 @@
                     "type":"literal",
                     "xml:lang":"en",
                     "value":"Bernhard"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             },
             {
@@ -288,6 +358,11 @@
                     "type":"literal",
                     "xml:lang":"en",
                     "value":"Ratcliffe"
+                },
+                "influencedLabel":{
+                    "type":"literal",
+                    "xml:lang":"en",
+                    "value":""
                 }
             }
         ]
