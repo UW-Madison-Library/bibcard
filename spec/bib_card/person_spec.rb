@@ -141,6 +141,10 @@ describe BibCard::Person do
       @person = person("stein")
     end
 
+    it "has the correct number despite data dups" do
+      expect(@person.wikidata_entity.alma_maters.size).to eq(4)
+    end
+
     it "can have source citations" do
       school_with_source = @person.wikidata_entity.alma_maters.select {|school| school.name == "Radcliffe College"}.first
       expect(school_with_source.source.name).to eq("The Feminist Companion to Literature in English")

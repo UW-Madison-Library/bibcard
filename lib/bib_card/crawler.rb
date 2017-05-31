@@ -334,14 +334,13 @@ module BibCard
       {
         <#{self.wikidata_uri.to_s}> p:P69 ?statement .
         ?statement ps:P69 ?inst .
+        ?inst rdfs:label ?instLabel .
+        FILTER(langMatches(lang(?instLabel), \"en\"))
         OPTIONAL {
           ?statement prov:wasDerivedFrom ?reference .
           ?reference pref:P248 ?source .
           ?source rdfs:label ?sourceLabel .
           FILTER(langMatches(lang(?sourceLabel), \"en\"))
-        }
-        SERVICE wikibase:label {
-          bd:serviceParam wikibase:language \"en\" .
         }
       }
       "

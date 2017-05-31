@@ -10,7 +10,34 @@
       },
       "reference" : {
         "type" : "uri",
-        "value" : "http://www.wikidata.org/reference/e05206e415d45d068d5346f7bfbd1ae9c12acf71"
+        "value" : "http://www.wikidata.org/reference/f7b1ee5b897aff143b17c478fe87fefda5d40a41"
+      },
+      "source" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18328141"
+      },
+      "sourceLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Feminist Companion to Literature in English"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q49124"
+      },
+      "instLabel" : {
+        "xml:lang" : "en-gb",
+        "type" : "literal",
+        "value" : "Radcliffe College"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/q188385-79FEADD3-B049-4517-A6FC-9554CF125940"
+      },
+      "reference" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/reference/f7b1ee5b897aff143b17c478fe87fefda5d40a41"
       },
       "source" : {
         "type" : "uri",
@@ -33,30 +60,29 @@
     }, {
       "statement" : {
         "type" : "uri",
-        "value" : "http://www.wikidata.org/entity/statement/Q188385-BC748E6E-A11E-498B-A986-366F6485CEF1"
+        "value" : "http://www.wikidata.org/entity/statement/q188385-79FEADD3-B049-4517-A6FC-9554CF125940"
+      },
+      "reference" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/reference/f7b1ee5b897aff143b17c478fe87fefda5d40a41"
+      },
+      "source" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q18328141"
+      },
+      "sourceLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "The Feminist Companion to Literature in English"
       },
       "inst" : {
         "type" : "uri",
-        "value" : "http://www.wikidata.org/entity/Q13371"
+        "value" : "http://www.wikidata.org/entity/Q49124"
       },
       "instLabel" : {
-        "xml:lang" : "en",
+        "xml:lang" : "en-ca",
         "type" : "literal",
-        "value" : "Harvard University"
-      }
-    }, {
-      "statement" : {
-        "type" : "uri",
-        "value" : "http://www.wikidata.org/entity/statement/Q188385-4A39832D-C603-4C2B-B80E-41258F86103E"
-      },
-      "inst" : {
-        "type" : "uri",
-        "value" : "http://www.wikidata.org/entity/Q193727"
-      },
-      "instLabel" : {
-        "xml:lang" : "en",
-        "type" : "literal",
-        "value" : "Johns Hopkins University"
+        "value" : "Radcliffe College"
       }
     }, {
       "statement" : {
@@ -65,7 +91,7 @@
       },
       "reference" : {
         "type" : "uri",
-        "value" : "http://www.wikidata.org/reference/e05206e415d45d068d5346f7bfbd1ae9c12acf71"
+        "value" : "http://www.wikidata.org/reference/f7b1ee5b897aff143b17c478fe87fefda5d40a41"
       },
       "source" : {
         "type" : "uri",
@@ -84,6 +110,76 @@
         "xml:lang" : "en",
         "type" : "literal",
         "value" : "Johns Hopkins School of Medicine"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q188385-4A39832D-C603-4C2B-B80E-41258F86103E"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q193727"
+      },
+      "instLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johns Hopkins University"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q188385-4A39832D-C603-4C2B-B80E-41258F86103E"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q193727"
+      },
+      "instLabel" : {
+        "xml:lang" : "en-gb",
+        "type" : "literal",
+        "value" : "Johns Hopkins University"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q188385-BC748E6E-A11E-498B-A986-366F6485CEF1"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13371"
+      },
+      "instLabel" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Harvard University"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q188385-BC748E6E-A11E-498B-A986-366F6485CEF1"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13371"
+      },
+      "instLabel" : {
+        "xml:lang" : "en-ca",
+        "type" : "literal",
+        "value" : "Harvard University"
+      }
+    }, {
+      "statement" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/statement/Q188385-BC748E6E-A11E-498B-A986-366F6485CEF1"
+      },
+      "inst" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q13371"
+      },
+      "instLabel" : {
+        "xml:lang" : "en-gb",
+        "type" : "literal",
+        "value" : "Harvard University"
       }
     } ]
   }
