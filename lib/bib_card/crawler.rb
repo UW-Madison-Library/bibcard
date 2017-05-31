@@ -1,11 +1,11 @@
 module BibCard
   class Crawler
-    
+
     def initialize(uri, repository)
       @subject = RDF::URI(uri)
       @repository = repository
     end
-  
+
     SPARQL_ENDPOINTS = {
       getty: "http://vocab.getty.edu/sparql?query=",
       wikidata: "http://query.wikidata.org/sparql?query=",
@@ -16,32 +16,32 @@ module BibCard
       stmt = @repository.query(subject: @subject, predicate: SCHEMA_BIRTHDATE).first
       stmt.nil? ? nil : stmt.object
     end
-    
+
     def death_date
       stmt = @repository.query(subject: @subject, predicate: SCHEMA_DEATHDATE).first
       stmt.nil? ? nil : stmt.object
     end
-    
+
     def loc_uri
       stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('http://id.loc.gov/authorities/names/')}.first
       stmt.nil? ? nil : stmt.object
     end
-    
+
     def dbpedia_uri
       stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('http://dbpedia.org/resource')}.first
       stmt.nil? ? nil : stmt.object
     end
-    
+
     def getty_uri
       stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('vocab.getty.edu')}.first
       stmt.nil? ? nil : RDF::URI.new( stmt.object.to_s.gsub('-agent', '') )
     end
-    
+
     def wikidata_uri
       stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('http://www.wikidata.org/entity')}.first
       stmt.nil? ? nil : stmt.object
     end
-    
+
     def creator_graph
       graph = RDF::Graph.new
       if @repository.size > 0
@@ -59,7 +59,7 @@ module BibCard
       end
       graph
     end
-    
+
     def dbpedia_graph
       graph = RDF::Graph.new
       begin
@@ -69,11 +69,11 @@ module BibCard
       rescue RestClient::RequestTimeout
         BibCard.logger.warn "DBPedia failed to respond. SPARQL query request timed out after 5 seconds for #{@current_query}."
       rescue Exception => e
-        BibCard.logger.warn "DBPedia failed to respond. SPARQL query request for #{@current_query}. Error: #{e.message}"
+        BibCard.logger.warn "DBPedia failed to respond. Processing data for SPARQL request: #{@current_query}. Error: #{e.message}"
       end
       graph
     end
-    
+
     def influence_graph
       graph = RDF::Graph.new
       [:influences, :influenced].each do |relationship|
@@ -88,8 +88,11 @@ module BibCard
           end
           influence_entity = RDF::URI.new(influence[field]["value"])
           graph << [self.dbpedia_uri, predicate, influence_entity]
-          graph << [influence_entity, FOAF_GIVEN_NAME, influence["#{field}GivenName"]["value"]]
-          graph << [influence_entity, FOAF_SURNAME, influence["#{field}Surname"]["value"]]
+          graph << [influence_entity, RDFS_LABEL, influence["#{field}Label"]["value"]]
+          if influence["#{field}GivenName"] and influence["#{field}Surname"]
+            graph << [influence_entity, FOAF_GIVEN_NAME, influence["#{field}GivenName"]["value"]]
+            graph << [influence_entity, FOAF_SURNAME, influence["#{field}Surname"]["value"]]
+          end
           if influence["influenceSameAs"]
             graph << [influence_entity, RDF::OWL.sameAs, influence["#{field}SameAs"]["value"]]
           end
@@ -97,7 +100,7 @@ module BibCard
       end
       graph
     end
-    
+
     def film_graph
       @current_query = "film graph"
       graph = RDF::Graph.new
@@ -109,7 +112,7 @@ module BibCard
       end
       graph
     end
-    
+
     def profile_graph
       @current_query = "profile graph"
       graph = RDF::Graph.new
@@ -129,56 +132,64 @@ module BibCard
       @current_query = "influences graph"
       sparql = "
       #{self.dbpedia_sparql_prefixes}
-      
-      SELECT DISTINCT ?influence ?influenceGivenName ?influenceSurname ?influenceSameAs
+
+      SELECT DISTINCT ?influence ?influenceGivenName ?influenceSurname ?influenceSameAs ?influenceLabel
       WHERE {
-        { 
-          ?influence dbo:influenced <#{self.dbpedia_uri}> . 
+        {
+          ?influence dbo:influenced <#{self.dbpedia_uri}> .
         }
         UNION
         {
           <#{self.dbpedia_uri}> dbo:influencedBy ?influence .
         }
-        ?influence foaf:givenName ?influenceGivenName .
-        ?influence foaf:surname ?influenceSurname .
-        OPTIONAL { 
-          ?influence owl:sameAs ?influenceSameAs . 
+        ?influence rdfs:label ?influenceLabel .
+        OPTIONAL {
+          ?influence foaf:givenName ?influenceGivenName .
+          ?influence foaf:surname ?influenceSurname .
+        }
+        OPTIONAL {
+          ?influence owl:sameAs ?influenceSameAs .
           FILTER regex(STR(?influenceSameAs), \"viaf.org\").
         }
+        FILTER (lang(?influenceLabel) = 'en')
       }
       "
       get_data(sparql, :dbpedia)
     end
-    
+
     def influenced
       @current_query = "influence upon graph"
       sparql = "
       #{self.dbpedia_sparql_prefixes}
-      
-      SELECT ?influenced ?influencedGivenName ?influencedSurname ?influencedSameAs
+
+      SELECT ?influenced ?influencedGivenName ?influencedSurname ?influencedSameAs ?influencedLabel
       WHERE {
-        { 
-          <#{self.dbpedia_uri}> dbo:influenced ?influenced . 
+        {
+          <#{self.dbpedia_uri}> dbo:influenced ?influenced .
         }
         UNION
         {
           ?influenced dbo:influencedBy <#{self.dbpedia_uri}> .
         }
-        ?influenced foaf:givenName ?influencedGivenName .
-        ?influenced foaf:surname ?influencedSurname .
-        OPTIONAL { 
-          ?influenced owl:sameAs ?influencedSameAs . 
+        ?influenced rdfs:label ?influencedLabel .
+        OPTIONAL {
+          ?influenced foaf:givenName ?influencedGivenName .
+          ?influenced foaf:surname ?influencedSurname .
+        }
+        OPTIONAL {
+          ?influenced owl:sameAs ?influencedSameAs .
           FILTER regex(STR(?influencedSameAs), \"viaf.org\").
         }
+        FILTER (lang(?influencedLabel) = 'en')
       }
       "
       get_data(sparql, :dbpedia)
     end
-    
+
     def dbpedia_profile
       sparql = "
       #{self.dbpedia_sparql_prefixes}
-      
+
       SELECT ?abstract ?foundedDate ?location ?thumbnail ?depiction
       WHERE {
         OPTIONAL { <#{self.dbpedia_uri}> dbo:abstract ?abstract . }
@@ -191,11 +202,11 @@ module BibCard
       "
       get_data(sparql, :dbpedia).first
     end
-    
+
     def film_appearances
       sparql = "
       #{self.dbpedia_sparql_prefixes}
-      
+
       SELECT ?film ?filmName ?filmAbstract
       WHERE {
         ?film dbo:starring <#{self.dbpedia_uri}> .
@@ -207,7 +218,7 @@ module BibCard
       "
       get_data(sparql, :dbpedia)
     end
-  
+
     def getty_note_graph
       @current_query = "getty note graph"
       graph = RDF::Graph.new
@@ -218,7 +229,7 @@ module BibCard
           scope_note_uri = RDF::URI.new(scope_note["scopeNote"]["value"])
           graph << [getty_subject, SKOS_SCOPE_NOTE, scope_note_uri]
           graph << [scope_note_uri, RDF.value, scope_note["scopeNoteValue"]["value"]]
-        
+
           # Add the sources/citations for the scope note
           source_uri = RDF::URI.new(scope_note["source"]["value"])
           graph << [scope_note_uri, DC_SOURCE, source_uri]
@@ -234,11 +245,11 @@ module BibCard
       rescue RestClient::RequestTimeout
         BibCard.logger.warn "Getty failed to respond. SPARQL query request timed out after 5 seconds for #{@current_query}."
       rescue Exception => e
-        BibCard.logger.warn "Getty failed to respond. SPARQL query request for #{@current_query}. Error: #{e.message}"
+        BibCard.logger.warn "Getty failed to respond. Processing data for SPARQL request: #{@current_query}. Error: #{e.message}"
       end
       graph
     end
-  
+
     def getty_scope_notes
       sparql = "
       PREFIX ulan: <http://vocab.getty.edu/ulan/>
@@ -261,7 +272,7 @@ module BibCard
       "
       get_data(sparql, :getty)
     end
-    
+
     def wikidata_graph
       graph = RDF::Graph.new
       begin
@@ -270,12 +281,12 @@ module BibCard
           @current_query = "alma maters graph"
           am_inst_uri   = RDF::URI.new(alma_mater["inst"]["value"])
           am_edu_stmt   = RDF::URI.new(alma_mater["statement"]["value"])
-        
+
           graph << [wikidata_subject, WDT_EDUCATED_AT, am_inst_uri]
           graph << [am_inst_uri, RDF::RDFS.label, alma_mater["instLabel"]["value"]]
           graph << [wikidata_subject, WDP_EDUCATED_AT, am_edu_stmt]
           graph << [am_edu_stmt, WDPS_STMT_EDU_AT, am_inst_uri]
-        
+
           # Not all assertions have references/citations
           if alma_mater["reference"]
             am_stmt_ref   = RDF::URI.new(alma_mater["reference"]["value"])
@@ -286,7 +297,7 @@ module BibCard
             graph << [am_ref_source, RDF::RDFS.label, alma_mater["sourceLabel"]["value"]]
           end
         end
-      
+
         bio = self.brief_bio
         if bio
           @current_query = "brief bio graph"
@@ -297,7 +308,7 @@ module BibCard
             graph << [work_loc_uri, RDF::RDFS.label, bio["workLocationLabel"]["value"]]
           end
         end
-      
+
         self.notable_works.each do |work|
           @current_query = "notable works graph"
           work_uri = RDF::URI.new(work["notableWork"]["value"])
@@ -309,22 +320,22 @@ module BibCard
       rescue RestClient::RequestTimeout
         BibCard.logger.warn "WikiData failed to respond. SPARQL query request timed out after 5 seconds for #{@current_query}."
       rescue Exception => e
-        BibCard.logger.warn "WikiData failed to respond. SPARQL query request for #{@current_query}. Error: #{e.message}"
+        BibCard.logger.warn "WikiData failed to respond. Processing data for SPARQL request: #{@current_query}. Error: #{e.message}"
       end
       graph
     end
-    
+
     def alma_maters
       sparql = "
       #{self.wikidata_sparql_prefixes}
 
       SELECT DISTINCT ?inst ?instLabel ?statement ?reference ?source ?sourceLabel
-      WHERE 
+      WHERE
       {
         <#{self.wikidata_uri.to_s}> p:P69 ?statement .
         ?statement ps:P69 ?inst .
-        OPTIONAL { 
-          ?statement prov:wasDerivedFrom ?reference . 
+        OPTIONAL {
+          ?statement prov:wasDerivedFrom ?reference .
           ?reference pref:P248 ?source .
           ?source rdfs:label ?sourceLabel .
           FILTER(langMatches(lang(?sourceLabel), \"en\"))
@@ -336,15 +347,15 @@ module BibCard
       "
       get_data(sparql, :wikidata)
     end
-    
+
     def brief_bio
       sparql = "
       #{self.wikidata_sparql_prefixes}
-      
+
       SELECT DISTINCT ?description ?workLocation ?workLocationLabel
-      WHERE 
+      WHERE
       {
-        <#{self.wikidata_uri.to_s}> schema:description ?description . 
+        <#{self.wikidata_uri.to_s}> schema:description ?description .
         OPTIONAL {
           <#{self.wikidata_uri.to_s}> wdt:P937 ?workLocation .
         }
@@ -356,13 +367,13 @@ module BibCard
       "
       get_data(sparql, :wikidata).first
     end
-    
+
     def notable_works
       sparql = "
       #{self.wikidata_sparql_prefixes}
-      
+
       SELECT DISTINCT ?notableWork ?notableWorkLabel ?isbn ?oclcNumber
-      WHERE 
+      WHERE
       {
       	<#{self.wikidata_uri.to_s}> wdt:P800 ?notableWork .
         	OPTIONAL {
@@ -377,16 +388,16 @@ module BibCard
       notable_works = get_data(sparql, :wikidata)
       notable_works.select {|work| work["notableWorkLabel"] != nil and !work["notableWorkLabel"]["value"].match(/^Q\d+$/)}
     end
-    
+
     protected
-    
+
     def get_data(sparql, source)
       url = SPARQL_ENDPOINTS[source] + URI::encode(sparql.gsub(/\n/, ' '))
       data = RestClient::Request.execute(method: :get, url: url, headers: {accept: "application/sparql-results+json"}, timeout: 5)
       parsed_data = JSON.parse data
       parsed_data["results"]["bindings"]
     end
-    
+
     def wikidata_sparql_prefixes
       "
       PREFIX wikibase: <http://wikiba.se/ontology#>
@@ -396,7 +407,7 @@ module BibCard
       PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
       "
     end
-    
+
     def dbpedia_sparql_prefixes
       "
       PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -405,6 +416,6 @@ module BibCard
       PREFIX dbo: <http://dbpedia.org/ontology/>
       "
     end
-    
+
   end
 end

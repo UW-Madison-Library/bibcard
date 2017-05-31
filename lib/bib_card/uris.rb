@@ -7,6 +7,7 @@ module BibCard
   DC_SOURCE           = RDF::URI.new('http://purl.org/dc/terms/source')
   DC_IS_PART_OF       = RDF::URI.new('http://purl.org/dc/terms/isPartOf')
   RDFS_COMMENT        = RDF::URI.new('http://www.w3.org/2000/01/rdf-schema#comment')
+  RDFS_LABEL          = RDF::URI.new('http://www.w3.org/2000/01/rdf-schema#label')
   SCHEMA_PERSON       = RDF::URI.new('http://schema.org/Person')
   SCHEMA_ORGANIZATION = RDF::URI.new('http://schema.org/Organization')
   SCHEMA_SAME_AS      = RDF::URI.new('http://schema.org/sameAs')
@@ -40,12 +41,12 @@ module BibCard
 
   VOCAB_PREFIXES = {
     schema: RDF::URI.new("http://schema.org/"),
-    foaf: RDF::URI.new("http://xmlns.com/foaf/0.1/"), 
-    owl: RDF::URI.new("http://www.w3.org/2002/07/owl#"), 
-    skos: RDF::URI.new("http://www.w3.org/2004/02/skos/core#"), 
-    dcterms: RDF::URI.new("http://purl.org/dc/terms/"), 
-    bibo: RDF::URI.new("http://purl.org/ontology/bibo/"), 
-    wdpd: RDF::URI.new("http://www.wikidata.org/prop/direct/"), 
+    foaf: RDF::URI.new("http://xmlns.com/foaf/0.1/"),
+    owl: RDF::URI.new("http://www.w3.org/2002/07/owl#"),
+    skos: RDF::URI.new("http://www.w3.org/2004/02/skos/core#"),
+    dcterms: RDF::URI.new("http://purl.org/dc/terms/"),
+    bibo: RDF::URI.new("http://purl.org/ontology/bibo/"),
+    wdpd: RDF::URI.new("http://www.wikidata.org/prop/direct/"),
     wdpr: RDF::URI.new("http://www.wikidata.org/prop/reference/"),
     wdps: RDF::URI.new("http://www.wikidata.org/prop/statement/"),
     wdp: RDF::URI.new("http://www.wikidata.org/prop/"),
@@ -56,13 +57,13 @@ module BibCard
 
   JSON_LD_CONTEXT = {
     schema: "http://schema.org/",
-    foaf: "http://xmlns.com/foaf/0.1/", 
-    owl: "http://www.w3.org/2002/07/owl#", 
-    skos: "http://www.w3.org/2004/02/skos/core#", 
-    dcterms: "http://purl.org/dc/terms/", 
-    bibo: "http://purl.org/ontology/bibo/", 
-    wdpd: "http://www.wikidata.org/prop/direct/", 
-    wdp: "http://www.wikidata.org/prop/", 
+    foaf: "http://xmlns.com/foaf/0.1/",
+    owl: "http://www.w3.org/2002/07/owl#",
+    skos: "http://www.w3.org/2004/02/skos/core#",
+    dcterms: "http://purl.org/dc/terms/",
+    bibo: "http://purl.org/ontology/bibo/",
+    wdpd: "http://www.wikidata.org/prop/direct/",
+    wdp: "http://www.wikidata.org/prop/",
     rdfs: "http://www.w3.org/2000/01/rdf-schema#",
     dbo: "http://dbpedia.org/ontology/",
     rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
