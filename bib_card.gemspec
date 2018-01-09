@@ -26,11 +26,11 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
-  
-  spec.add_runtime_dependency "rdf", "~> 2.2", ">= 2.2.1"
-  spec.add_runtime_dependency "rdf-vocab", "~> 2.1", ">= 2.1.1"
-  spec.add_runtime_dependency "rdf-rdfxml", "~> 2.0"
-  spec.add_runtime_dependency "spira", "~> 2.0"
+
+  spec.add_runtime_dependency "rdf", "~> 3.0", ">= 3.0.1"
+  spec.add_runtime_dependency "rdf-vocab", "~> 3.0"
+  spec.add_runtime_dependency "rdf-rdfxml", "~> 2.2.1"
+  spec.add_runtime_dependency "spira", "~> 3.0"
   spec.add_runtime_dependency "rest-client", "= 2.0"
   spec.add_runtime_dependency "nokogiri", ">= 1.6.3"
   spec.add_runtime_dependency "equivalent-xml", "~> 0.6"
