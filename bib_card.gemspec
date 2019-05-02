@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "rdf-vocab", "~> 3.0"
   spec.add_runtime_dependency "rdf-rdfxml", "~> 2.2.1"
   spec.add_runtime_dependency "spira", "~> 3.0"
-  spec.add_runtime_dependency "rest-client", '~> 2.0.2', ">= 2.0"
+  spec.add_runtime_dependency "rest-client", '~> 2.0.2'
   spec.add_runtime_dependency "nokogiri", ">= 1.6.3"
   spec.add_runtime_dependency "equivalent-xml", "~> 0.6"
 
