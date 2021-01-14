@@ -28,14 +28,13 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "rdf", "~> 3.0", ">= 3.0.1"
-  spec.add_runtime_dependency "rdf-vocab", "~> 3.0"
-  spec.add_runtime_dependency "rdf-rdfxml", "~> 2.2.1"
+  spec.add_runtime_dependency "rdf-rdfxml", "~> 3.1.0"
   spec.add_runtime_dependency "spira", "~> 3.0"
   spec.add_runtime_dependency "rest-client", '~> 2.0.2'
   spec.add_runtime_dependency "nokogiri", ">= 1.6.3"
   spec.add_runtime_dependency "equivalent-xml", "~> 0.6"
 
-  spec.add_development_dependency "bundler", "~> 1.10"
+  spec.add_development_dependency "bundler", "~> 2.2.5"
   spec.add_development_dependency "rake", "~> 13.0.1"
   spec.add_development_dependency "rspec", "~> 3.4"
   spec.add_development_dependency "simplecov", "~> 0.11", ">= 0.11.2"

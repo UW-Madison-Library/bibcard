@@ -13,40 +13,40 @@ module BibCard
     }
 
     def birth_date
-      stmt = @repository.query(subject: @subject, predicate: SCHEMA_BIRTHDATE).first
+      stmt = @repository.query({subject: @subject, predicate: SCHEMA_BIRTHDATE}).first
       stmt.nil? ? nil : stmt.object
     end
 
     def death_date
-      stmt = @repository.query(subject: @subject, predicate: SCHEMA_DEATHDATE).first
+      stmt = @repository.query({subject: @subject, predicate: SCHEMA_DEATHDATE}).first
       stmt.nil? ? nil : stmt.object
     end
 
     def loc_uri
-      stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('http://id.loc.gov/authorities/names/')}.first
+      stmt = @repository.query({subject: @subject, predicate: SCHEMA_SAME_AS}).select {|s| s.object.to_s.match('http://id.loc.gov/authorities/names/')}.first
       stmt.nil? ? nil : stmt.object
     end
 
     def dbpedia_uri
-      stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('http://dbpedia.org/resource')}.first
+      stmt = @repository.query({subject: @subject, predicate: SCHEMA_SAME_AS}).select {|s| s.object.to_s.match('http://dbpedia.org/resource')}.first
       stmt.nil? ? nil : stmt.object
     end
 
     def getty_uri
-      stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('vocab.getty.edu')}.first
+      stmt = @repository.query({subject: @subject, predicate: SCHEMA_SAME_AS}).select {|s| s.object.to_s.match('vocab.getty.edu')}.first
       stmt.nil? ? nil : RDF::URI.new( stmt.object.to_s.gsub('-agent', '') )
     end
 
     def wikidata_uri
-      stmt = @repository.query(subject: @subject, predicate: SCHEMA_SAME_AS).select {|s| s.object.to_s.match('http://www.wikidata.org/entity')}.first
+      stmt = @repository.query({subject: @subject, predicate: SCHEMA_SAME_AS}).select {|s| s.object.to_s.match('http://www.wikidata.org/entity')}.first
       stmt.nil? ? nil : stmt.object
     end
 
     def creator_graph
       graph = RDF::Graph.new
       if @repository.size > 0
-        @repository.query(subject: @subject, predicate: RDF.type).each {|stmt| graph << stmt}
-        @repository.query(subject: @subject, predicate: SCHEMA_NAME).each {|stmt| graph << stmt}
+        @repository.query({subject: @subject, predicate: RDF.type}).each {|stmt| graph << stmt}
+        @repository.query({subject: @subject, predicate: SCHEMA_NAME}).each {|stmt| graph << stmt}
         graph << [@subject, SCHEMA_BIRTHDATE, self.birth_date] if self.birth_date
         graph << [@subject, SCHEMA_DEATHDATE, self.death_date] if self.death_date
         graph << [@subject, SCHEMA_SAME_AS, self.loc_uri] if self.loc_uri
@@ -391,7 +391,7 @@ module BibCard
     protected
 
     def get_data(sparql, source)
-      url = SPARQL_ENDPOINTS[source] + URI::encode(sparql.gsub(/\n/, ' '))
+      url = SPARQL_ENDPOINTS[source] + URI::encode_www_form_component(sparql.gsub(/\n/, ' '))
       data = RestClient::Request.execute(method: :get, url: url, headers: {accept: "application/sparql-results+json"}, timeout: 5)
       parsed_data = JSON.parse data
       parsed_data["results"]["bindings"]

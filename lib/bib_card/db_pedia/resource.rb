@@ -24,7 +24,7 @@ module BibCard
       end
 
       def film_appearances
-        Spira.repository.query(predicate: DBO_STARRING, object: self.subject).map do |film|
+        Spira.repository.query({predicate: DBO_STARRING, object: self.subject}).map do |film|
           film.subject.as(DBPedia::Resource)
         end
       end
