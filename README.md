@@ -13,7 +13,13 @@ The VIAF URI lies at the core of the `BibCard::Person` object because it acts as
 
 ## Installation
 
-This gem is not yet in rubygems. Until the tires are kicked a few more times please use this command line install.
+This gem is now in rubygems.
+
+```bash
+$ gem install bib_card
+```
+
+Alternatively, command line install:
 
 ```bash
 $ git clone https://github.com/UW-Madison-Library/bibcard
@@ -85,4 +91,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/UW-Mad
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
