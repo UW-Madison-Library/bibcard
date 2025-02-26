@@ -19,16 +19,16 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "rdf", "~> 3.0", ">= 3.0.1"
-  spec.add_runtime_dependency "rdf-rdfxml", "~> 3.1.0"
-  spec.add_runtime_dependency "spira", "~> 3.0"
-  spec.add_runtime_dependency "rest-client", '~> 2.0.2'
-  spec.add_runtime_dependency "nokogiri", "~> 1.16.2"
+  spec.add_runtime_dependency "rdf", "~> 3.3.0"
+  spec.add_runtime_dependency "rdf-rdfxml", "~> 3.3.0"
+  spec.add_runtime_dependency "spira", "~> 3.3"
+  spec.add_runtime_dependency "rest-client", '~> 2.1'
+  spec.add_runtime_dependency "nokogiri", "~> 1.18"
   spec.add_runtime_dependency "equivalent-xml", "~> 0.6"
 
-  spec.add_development_dependency "bundler", "~> 2.3"
-  spec.add_development_dependency "rake", "~> 13.0.1"
-  spec.add_development_dependency "rspec", "~> 3.4"
-  spec.add_development_dependency "simplecov", "~> 0.11", ">= 0.11.2"
-  spec.add_development_dependency "webmock", "~> 2.0", ">= 2.0.3"
+  spec.add_development_dependency "bundler", "~> 2.4"
+  spec.add_development_dependency "rake", "~> 13.2.1"
+  spec.add_development_dependency "rspec", "~> 3.13"
+  spec.add_development_dependency "simplecov", "~> 0.22"
+  spec.add_development_dependency "webmock", "~> 3.25"
 end
